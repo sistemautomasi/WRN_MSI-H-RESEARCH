@@ -45,7 +45,7 @@
 ## Covalent chemistry
 
 **8. Cys727 covalent cocrystals**
-- [ ] Verify that `structure_inventory.csv` flags exactly **10 structures** with `covalent_link_at_cys = C727`: 10AK, 10AP, 7GQU, 9OG8, 9QBU, 9QBV, 9RTI, 9RUR, 9S17, 9S1B.
+- [ ] Verify that `structure_inventory.csv` flags exactly **10 structures** with `covalent_link_at_cys` entries corresponding to Cys727 (for example `Cys727(A)` or `Cys727(A);Cys727(B)`): 10AK, 10AP, 7GQU, 9OG8, 9QBU, 9QBV, 9RTI, 9RUR, 9S17, 9S1B.
 - [ ] Confirm no covalent bonds at other cysteines (C519, C623, C724, C1041) were identified.
 
 **9. 9OG8 bond distance anomaly**
@@ -64,7 +64,7 @@
 
 **12. Original data preserved**
 - [ ] Confirm no coordinates have been altered (per `phase2_missing_data_report.md` §8).
-- [ ] Confirm that the raw JSON intermediates in `/workspace/wrn_phase2_structures/` (rcsb_metadata_raw.json, link_records_all.json, residue_maps.json, ccd_ligand_metadata.json) are preserved for audit.
+- [ ] Confirm whether the raw JSON intermediates from the original execution workspace `/workspace/wrn_phase2_structures/` (for example `rcsb_metadata_raw.json`, `link_records_all.json`, `residue_maps.json`, `ccd_ligand_metadata.json`) were separately preserved for audit. If they are not present in the repository handoff, treat the CSVs and downloaded structure files as the primary delivered artifacts.
 
 ## Decision point
 
