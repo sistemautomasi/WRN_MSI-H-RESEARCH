@@ -81,7 +81,7 @@ phase2_structure_ligand_collection/
      ├── VVD-214.sdf, VVD-214.smiles.txt
      ├── GSK4418959_IDE275.sdf, GSK4418959_IDE275.smiles.txt
      ├── YHC_ideal_from_RCSB.sdf, YH8_ideal_from_RCSB.sdf, X1L_ideal_from_RCSB.sdf
-     └── SNV5686.NOT_PUBLICLY_VERIFIED.txt, JJ_Compound_ABC.NOT_PUBLICLY_VERIFIED.txt, AbbVie_DEL_series.NOT_PUBLICLY_VERIFIED.txt
+     └── SNV5686_NOT_PUBLICLY_VERIFIED.smiles.txt, JJ_Compound_A_B_C_NOT_PUBLICLY_VERIFIED.smiles.txt, AbbVie_DEL_series_NOT_PUBLICLY_VERIFIED.smiles.txt
 ```
 
 ## 4. Boundary conditions respected
