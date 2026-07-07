@@ -1,0 +1,10 @@
+# Ligand: HRO761
+# Provenance: PubChem CID 166140536; ChEMBL CHEMBL6068555; RCSB CCD YHC (exact InChIKey match). Bound in 8PFO, 9S18.
+canonical_smiles: CCc1c(N2CCN(C(=O)c3ncnc(C)c3O)CC2)c(=O)n2nc(C3=CCOCC3)nc2n1CC(=O)Nc1ccc(C(F)(F)F)cc1Cl
+pubchem_cid: 166140536
+chembl_id: CHEMBL6068555
+rcsb_ccd_id: YHC
+inchi_key: XKYVECRUZPCRQR-UHFFFAOYSA-N
+molecular_formula: C31H31ClF3N9O5
+molecular_weight_exact: 701.209
+# Notes: Novartis triazolopyrimidine WRN inhibitor. Non-covalent binder. Reference: Baltschukat et al., Discovery of HRO761.

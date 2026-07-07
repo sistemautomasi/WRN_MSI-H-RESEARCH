@@ -1,0 +1,8 @@
+# Ligand: GSK4418959_IDE275
+# Provenance: PubChem CID 172618374 (primary form) + 172618744 (enantiomer). NO PDB cocrystal found in RCSB. Referenced in IDEAYA/GSK partnership disclosures.
+canonical_smiles: Cc1nc2cc(S(=O)(=O)N(C)c3ccc([C@H]4CCC[C@@H](C(=O)Nc5ccc(C(F)(F)F)cc5F)[C@@H]4C(=O)O)cc3)ccc2n1C
+pubchem_cid: 172618374
+inchi_key: CPNRNECAIBPHJF-MVOZIGHISA-N
+molecular_formula: C31H30F4N4O5S
+molecular_weight_exact: 646.187
+# Notes: Sulfonamide cyclohexane WRN inhibitor. Reported to overcome C727 mutation-driven resistance. Only Phase 1 mechanism info; no structural template available from public data.

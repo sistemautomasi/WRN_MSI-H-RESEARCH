@@ -1,0 +1,3 @@
+# Ligand: JJ_CompoundABC
+# Status: NOT PUBLICLY VERIFIED
+# Notes: Janssen J&J WRN inhibitor series disclosed at AACR 2024. PubChem: 0 hits. ChEMBL: 0 verified hits. No public SMILES. No PDB cocrystal.

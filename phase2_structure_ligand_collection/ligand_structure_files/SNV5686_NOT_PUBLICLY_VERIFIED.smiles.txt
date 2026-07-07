@@ -1,0 +1,3 @@
+# Ligand: SNV5686
+# Status: NOT PUBLICLY VERIFIED
+# Notes: WRN inhibitor disclosed in AACR 2025 abstract 2921 (Liu, Yang, Ferrante et al., Cancer Research). Abstract reports activity against both WT WRN and WRN-C727S mutant proteins in MSI-H tumors. Sponsor company NOT disclosed in the abstract. PubChem name query: 0 CIDs. ChEMBL fuzzy hits are unrelated compounds (TEREVALEFIM). No public SMILES available. No PDB cocrystal in RCSB.

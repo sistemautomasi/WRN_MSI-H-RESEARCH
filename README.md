@@ -1,69 +1,64 @@
-# Welcome to your Lovable project
+# WRN_MSI-H-RESEARCH
 
-## Project info
+**Mutation- and Conformational-State-Resolved Computational Atlas of WRN Helicase Inhibitor Resistance in MSI-High Cancers**
 
-**URL**: https://lovable.dev/projects/84710487-df41-4b71-ac22-670c2d108c46
+## Project Overview
 
-## How can I edit this code?
+This repository contains the computational atlas for understanding how WRN helicase resistance mutations affect inhibitor binding, pocket geometry, structural state, and resistance patterns for HRO761 and VVD-133214 / VVD-214 / RO7589831 in MSI-high (microsatellite instability-high) cancers.
 
-There are several ways of editing your application.
+This is **not** a random virtual screening project. The focus is **resistance mechanism analysis**.
 
-**Use Lovable**
+## Key Mutations
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/84710487-df41-4b71-ac22-670c2d108c46) and start prompting.
+| Mutation | Residue Position | Type |
+|---|---|---|
+| L528S | 528 | Resistance hotspot |
+| C727A | 727 | Covalent-handle loss |
+| C727S | 727 | Covalent-handle loss |
+| C727R | 727 | Covalent-handle loss |
+| G729D | 729 | Pocket reshaping |
+| F730L | 730 | Hydrophobic pocket |
+| I852F | 852 | Pocket reshaping |
 
-Changes made via Lovable will be committed automatically to this repo.
+## Key Inhibitors
 
-**Use your preferred IDE**
+- **HRO761** — Novartis, non-covalent allosteric (clinical stage)
+- **VVD-133214 / VVD-214 / RO-7589831** — Vividion/Roche, covalent allosteric at Cys727 (clinical stage)
+- **GSK4418959 / IDE275** — GSK/IDEAYA, non-covalent reversible (clinical stage)
+- **SNV5686** — sponsor not disclosed in AACR 2025 abstract 2921
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Repository Structure
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+WRN_MSI-H-RESEARCH/
+├── phase1_literature_curation/              # Literature, mutation table, inhibitor table
+├── phase2_structure_ligand_collection/      # Verified PDB + ligand inventory (37 structures)
+├── phase3_mutant_model_generation/          # Mutant homology/covalent-adduct models
+├── phase4_pocket_geometry_analysis/         # Pocket volume, shape, electrostatics
+├── phase5_docking_analysis/                 # Docking of inhibitors to WT + mutant models
+├── phase6_interaction_and_resistance_matrix/# Per-mutation × per-inhibitor resistance matrix
+└── phase7_manuscript_outputs/               # Figures, tables, manuscript drafts
 ```
 
-**Edit a file directly in GitHub**
+## Execution Policy
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **Phase-by-phase execution only** — each phase verified before proceeding
+- **No MD simulations** (environment limitation)
+- **No binding affinity claims** without experimental grounding
+- **Every claim traceable** to a specific PDB structure, citation, or coordinate-level parse
 
-**Use GitHub Codespaces**
+## Current Status
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+| Phase | Status |
+|---|---|
+| Phase 1 — Literature Curation | Completed (separate session) |
+| Phase 2 — Structure & Ligand Collection | **Completed** — 37 structures, 9 ligands, 185 residue mappings |
+| Phase 3 — Mutant Model Generation | Pending user authorization |
+| Phase 4 — Pocket Geometry Analysis | Not started |
+| Phase 5 — Docking Analysis | Not started |
+| Phase 6 — Interaction & Resistance Matrix | Not started |
+| Phase 7 — Manuscript Outputs | Not started |
 
-## What technologies are used for this project?
+## License
 
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/84710487-df41-4b71-ac22-670c2d108c46) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Research data — pre-publication. All rights reserved.

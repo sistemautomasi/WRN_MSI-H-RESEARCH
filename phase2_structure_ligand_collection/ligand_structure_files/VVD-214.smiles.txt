@@ -1,0 +1,9 @@
+# Ligand: VVD-214
+# Provenance: PubChem CID 170717998 (parent compound with vinyl sulfone). RCSB CCD X1L represents the reduced (post-Cys attack) form. Bound in 7GQU as covalent adduct at Cys727.
+canonical_smiles: CC(F)(F)c1ncc(C(=O)N[C@H](/C=C/S(C)(=O)=O)C2CC2)c(Oc2ccccc2)n1
+pubchem_cid: 170717998
+rcsb_ccd_id: X1L (covalent adduct form)
+inchi_key: UWPFUBNCDABUEE-SIFUEBAJSA-N
+molecular_formula: C20H21F2N3O4S
+molecular_weight_exact: 437.122
+# Notes: Vividion/Roche vinyl sulfone WRN covalent inhibitor at C727. Also known as RO-7589831 / PBI-410010.

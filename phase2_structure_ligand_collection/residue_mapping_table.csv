@@ -1,0 +1,186 @@
+pdb_id,wrn_chain,resistance_residue_position,resistance_mutation_forms,expected_wt_residue_1letter,observed_residue_1letter,observed_residue_3letter,residue_present_and_correct,auth_seq_id_in_structure,label_seq_id_in_structure,structure_state,mapping_provenance,notes
+10AJ,A,528,L528S,L,L,LEU,yes,528,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+10AJ,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+10AJ,A,729,G729D,G,G,GLY,yes,729,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+10AJ,A,730,F730L,F,F,PHE,yes,730,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+10AJ,A,852,I852F,I,I,ILE,yes,852,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+10AK,A,528,L528S,L,L,LEU,yes,528,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.961,authoring numbering matches Q14191
+10AK,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.961,authoring numbering matches Q14191
+10AK,A,729,G729D,G,G,GLY,yes,729,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.961,authoring numbering matches Q14191
+10AK,A,730,F730L,F,F,PHE,yes,730,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.961,authoring numbering matches Q14191
+10AK,A,852,I852F,I,I,ILE,yes,852,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.961,authoring numbering matches Q14191
+10AP,A,528,L528S,L,L,LEU,yes,528,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.995,authoring numbering matches Q14191
+10AP,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.995,authoring numbering matches Q14191
+10AP,A,729,G729D,G,G,GLY,yes,729,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.995,authoring numbering matches Q14191
+10AP,A,730,F730L,F,F,PHE,yes,730,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.995,authoring numbering matches Q14191
+10AP,A,852,I852F,I,I,ILE,yes,852,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.995,authoring numbering matches Q14191
+6YHR,A,528,L528S,L,L,LEU,yes,528,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.996,authoring numbering matches Q14191
+6YHR,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.996,authoring numbering matches Q14191
+6YHR,A,729,G729D,G,G,GLY,yes,729,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.996,authoring numbering matches Q14191
+6YHR,A,730,F730L,F,F,PHE,yes,730,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.996,authoring numbering matches Q14191
+6YHR,A,852,I852F,I,I,ILE,yes,852,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.996,authoring numbering matches Q14191
+7GQS,A,528,L528S,L,L,LEU,yes,528,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.982,authoring numbering matches Q14191
+7GQS,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.982,authoring numbering matches Q14191
+7GQS,A,729,G729D,G,G,GLY,yes,729,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.982,authoring numbering matches Q14191
+7GQS,A,730,F730L,F,F,PHE,yes,730,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.982,authoring numbering matches Q14191
+7GQS,A,852,I852F,I,I,ILE,yes,852,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.982,authoring numbering matches Q14191
+7GQT,A,528,L528S,L,L,LEU,yes,528,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 1.0,authoring numbering matches Q14191
+7GQT,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 1.0,authoring numbering matches Q14191
+7GQT,A,729,G729D,G,G,GLY,yes,729,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 1.0,authoring numbering matches Q14191
+7GQT,A,730,F730L,F,F,PHE,yes,730,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 1.0,authoring numbering matches Q14191
+7GQT,A,852,I852F,I,I,ILE,yes,852,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 1.0,authoring numbering matches Q14191
+7GQU,A,528,L528S,L,L,LEU,yes,528,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.979,authoring numbering matches Q14191
+7GQU,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.979,authoring numbering matches Q14191
+7GQU,A,729,G729D,G,G,GLY,yes,729,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.979,authoring numbering matches Q14191
+7GQU,A,730,F730L,F,F,PHE,yes,730,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.979,authoring numbering matches Q14191
+7GQU,A,852,I852F,I,I,ILE,yes,852,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.979,authoring numbering matches Q14191
+8PFL,A,528,L528S,L,L,LEU,yes,528,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.986,authoring numbering matches Q14191
+8PFL,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.986,authoring numbering matches Q14191
+8PFL,A,729,G729D,G,G,GLY,yes,729,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.986,authoring numbering matches Q14191
+8PFL,A,730,F730L,F,F,PHE,yes,730,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.986,authoring numbering matches Q14191
+8PFL,A,852,I852F,I,I,ILE,yes,852,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.986,authoring numbering matches Q14191
+8PFO,A,528,L528S,L,L,LEU,yes,528,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.981,authoring numbering matches Q14191
+8PFO,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.981,authoring numbering matches Q14191
+8PFO,A,729,G729D,G,G,GLY,yes,729,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.981,authoring numbering matches Q14191
+8PFO,A,730,F730L,F,F,PHE,yes,730,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.981,authoring numbering matches Q14191
+8PFO,A,852,I852F,I,I,ILE,yes,852,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.981,authoring numbering matches Q14191
+8PFP,A,528,L528S,L,L,LEU,yes,528,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.988,authoring numbering matches Q14191
+8PFP,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.988,authoring numbering matches Q14191
+8PFP,A,729,G729D,G,G,GLY,yes,729,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.988,authoring numbering matches Q14191
+8PFP,A,730,F730L,F,F,PHE,yes,730,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.988,authoring numbering matches Q14191
+8PFP,A,852,I852F,I,I,ILE,yes,852,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.988,authoring numbering matches Q14191
+9MJS,A,528,L528S,L,,,no,,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.983,"position 528 outside structure range [530, 941] or disordered"
+9MJS,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.983,authoring numbering matches Q14191
+9MJS,A,729,G729D,G,G,GLY,yes,729,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.983,authoring numbering matches Q14191
+9MJS,A,730,F730L,F,F,PHE,yes,730,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.983,authoring numbering matches Q14191
+9MJS,A,852,I852F,I,I,ILE,yes,852,,nucleotide-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.983,authoring numbering matches Q14191
+9MJT,A,528,L528S,L,L,LEU,yes,528,,apo,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.991,authoring numbering matches Q14191
+9MJT,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,apo,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.991,authoring numbering matches Q14191
+9MJT,A,729,G729D,G,G,GLY,yes,729,,apo,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.991,authoring numbering matches Q14191
+9MJT,A,730,F730L,F,F,PHE,yes,730,,apo,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.991,authoring numbering matches Q14191
+9MJT,A,852,I852F,I,I,ILE,yes,852,,apo,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.991,authoring numbering matches Q14191
+9MJU,A,528,L528S,L,L,LEU,yes,528,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.971,authoring numbering matches Q14191
+9MJU,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.971,authoring numbering matches Q14191
+9MJU,A,729,G729D,G,G,GLY,yes,729,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.971,authoring numbering matches Q14191
+9MJU,A,730,F730L,F,F,PHE,yes,730,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.971,authoring numbering matches Q14191
+9MJU,A,852,I852F,I,I,ILE,yes,852,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.971,authoring numbering matches Q14191
+9MJV,A,528,L528S,L,L,LEU,yes,528,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9MJV,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9MJV,A,729,G729D,G,G,GLY,yes,729,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9MJV,A,730,F730L,F,F,PHE,yes,730,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9MJV,A,852,I852F,I,I,ILE,yes,852,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9MJW,A,528,L528S,L,L,LEU,yes,528,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.993,authoring numbering matches Q14191
+9MJW,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.993,authoring numbering matches Q14191
+9MJW,A,729,G729D,G,G,GLY,yes,729,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.993,authoring numbering matches Q14191
+9MJW,A,730,F730L,F,F,PHE,yes,730,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.993,authoring numbering matches Q14191
+9MJW,A,852,I852F,I,I,ILE,yes,852,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.993,authoring numbering matches Q14191
+9MJX,A,528,L528S,L,L,LEU,yes,528,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.984,authoring numbering matches Q14191
+9MJX,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.984,authoring numbering matches Q14191
+9MJX,A,729,G729D,G,G,GLY,yes,729,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.984,authoring numbering matches Q14191
+9MJX,A,730,F730L,F,F,PHE,yes,730,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.984,authoring numbering matches Q14191
+9MJX,A,852,I852F,I,I,ILE,yes,852,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.984,authoring numbering matches Q14191
+9MJY,A,528,L528S,L,L,LEU,yes,528,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.982,authoring numbering matches Q14191
+9MJY,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.982,authoring numbering matches Q14191
+9MJY,A,729,G729D,G,G,GLY,yes,729,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.982,authoring numbering matches Q14191
+9MJY,A,730,F730L,F,F,PHE,yes,730,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.982,authoring numbering matches Q14191
+9MJY,A,852,I852F,I,I,ILE,yes,852,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.982,authoring numbering matches Q14191
+9MJZ,A,528,L528S,L,L,LEU,yes,528,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.984,authoring numbering matches Q14191
+9MJZ,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.984,authoring numbering matches Q14191
+9MJZ,A,729,G729D,G,G,GLY,yes,729,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.984,authoring numbering matches Q14191
+9MJZ,A,730,F730L,F,F,PHE,yes,730,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.984,authoring numbering matches Q14191
+9MJZ,A,852,I852F,I,I,ILE,yes,852,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.984,authoring numbering matches Q14191
+9MK0,A,528,L528S,L,L,LEU,yes,528,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.977,authoring numbering matches Q14191
+9MK0,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.977,authoring numbering matches Q14191
+9MK0,A,729,G729D,G,G,GLY,yes,729,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.977,authoring numbering matches Q14191
+9MK0,A,730,F730L,F,F,PHE,yes,730,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.977,authoring numbering matches Q14191
+9MK0,A,852,I852F,I,I,ILE,yes,852,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.977,authoring numbering matches Q14191
+9MK1,A,528,L528S,L,L,LEU,yes,528,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.988,authoring numbering matches Q14191
+9MK1,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.988,authoring numbering matches Q14191
+9MK1,A,729,G729D,G,G,GLY,yes,729,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.988,authoring numbering matches Q14191
+9MK1,A,730,F730L,F,F,PHE,yes,730,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.988,authoring numbering matches Q14191
+9MK1,A,852,I852F,I,I,ILE,yes,852,,fragment-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.988,authoring numbering matches Q14191
+9OG3,A,528,L528S,L,L,LEU,yes,528,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 1.0,authoring numbering matches Q14191
+9OG3,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 1.0,authoring numbering matches Q14191
+9OG3,A,729,G729D,G,G,GLY,yes,729,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 1.0,authoring numbering matches Q14191
+9OG3,A,730,F730L,F,F,PHE,yes,730,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 1.0,authoring numbering matches Q14191
+9OG3,A,852,I852F,I,I,ILE,yes,852,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 1.0,authoring numbering matches Q14191
+9OG8,A,528,L528S,L,L,LEU,yes,528,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9OG8,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9OG8,A,729,G729D,G,G,GLY,yes,729,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9OG8,A,730,F730L,F,F,PHE,yes,730,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9OG8,A,852,I852F,I,I,ILE,yes,852,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9OW9,A,528,L528S,L,L,LEU,yes,528,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 1.0,authoring numbering matches Q14191
+9OW9,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 1.0,authoring numbering matches Q14191
+9OW9,A,729,G729D,G,G,GLY,yes,729,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 1.0,authoring numbering matches Q14191
+9OW9,A,730,F730L,F,F,PHE,yes,730,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 1.0,authoring numbering matches Q14191
+9OW9,A,852,I852F,I,I,ILE,yes,852,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 1.0,authoring numbering matches Q14191
+9OWA,A,528,L528S,L,L,LEU,yes,528,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9OWA,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9OWA,A,729,G729D,G,G,GLY,yes,729,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9OWA,A,730,F730L,F,F,PHE,yes,730,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9OWA,A,852,I852F,I,I,ILE,yes,852,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9OWB,C,528,L528S,L,L,LEU,yes,528,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain C); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.966,authoring numbering matches Q14191
+9OWB,C,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain C); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.966,authoring numbering matches Q14191
+9OWB,C,729,G729D,G,G,GLY,yes,729,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain C); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.966,authoring numbering matches Q14191
+9OWB,C,730,F730L,F,F,PHE,yes,730,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain C); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.966,authoring numbering matches Q14191
+9OWB,C,852,I852F,I,I,ILE,yes,852,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain C); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.966,authoring numbering matches Q14191
+9OWC,A,528,L528S,L,L,LEU,yes,528,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.973,authoring numbering matches Q14191
+9OWC,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.973,authoring numbering matches Q14191
+9OWC,A,729,G729D,G,G,GLY,yes,729,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.973,authoring numbering matches Q14191
+9OWC,A,730,F730L,F,F,PHE,yes,730,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.973,authoring numbering matches Q14191
+9OWC,A,852,I852F,I,I,ILE,yes,852,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.973,authoring numbering matches Q14191
+9OWD,A,528,L528S,L,L,LEU,yes,528,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.979,authoring numbering matches Q14191
+9OWD,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.979,authoring numbering matches Q14191
+9OWD,A,729,G729D,G,G,GLY,yes,729,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.979,authoring numbering matches Q14191
+9OWD,A,730,F730L,F,F,PHE,yes,730,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.979,authoring numbering matches Q14191
+9OWD,A,852,I852F,I,I,ILE,yes,852,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.979,authoring numbering matches Q14191
+9QBU,B,528,L528S,L,L,LEU,yes,528,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.995,authoring numbering matches Q14191
+9QBU,B,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.995,authoring numbering matches Q14191
+9QBU,B,729,G729D,G,G,GLY,yes,729,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.995,authoring numbering matches Q14191
+9QBU,B,730,F730L,F,F,PHE,yes,730,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.995,authoring numbering matches Q14191
+9QBU,B,852,I852F,I,I,ILE,yes,852,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.995,authoring numbering matches Q14191
+9QBV,A,528,L528S,L,L,LEU,yes,528,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9QBV,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9QBV,A,729,G729D,G,G,GLY,yes,729,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9QBV,A,730,F730L,F,F,PHE,yes,730,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9QBV,A,852,I852F,I,I,ILE,yes,852,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9RTI,A,528,L528S,L,,,no,,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.99,"position 528 outside structure range [529, 941] or disordered"
+9RTI,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.99,authoring numbering matches Q14191
+9RTI,A,729,G729D,G,G,GLY,yes,729,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.99,authoring numbering matches Q14191
+9RTI,A,730,F730L,F,F,PHE,yes,730,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.99,authoring numbering matches Q14191
+9RTI,A,852,I852F,I,I,ILE,yes,852,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.99,authoring numbering matches Q14191
+9RUR,B,528,L528S,L,,,no,,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.995,"position 528 outside structure range [530, 941] or disordered"
+9RUR,B,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.995,authoring numbering matches Q14191
+9RUR,B,729,G729D,G,G,GLY,yes,729,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.995,authoring numbering matches Q14191
+9RUR,B,730,F730L,F,F,PHE,yes,730,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.995,authoring numbering matches Q14191
+9RUR,B,852,I852F,I,I,ILE,yes,852,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.995,authoring numbering matches Q14191
+9RUS,B,528,L528S,L,,,no,,,fragment-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,"position 528 outside structure range [530, 941] or disordered"
+9RUS,B,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,fragment-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9RUS,B,729,G729D,G,G,GLY,yes,729,,fragment-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9RUS,B,730,F730L,F,F,PHE,yes,730,,fragment-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9RUS,B,852,I852F,I,I,ILE,yes,852,,fragment-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9S17,A,528,L528S,L,,,no,,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.983,"position 528 outside structure range [530, 941] or disordered"
+9S17,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.983,authoring numbering matches Q14191
+9S17,A,729,G729D,G,G,GLY,yes,729,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.983,authoring numbering matches Q14191
+9S17,A,730,F730L,F,F,PHE,yes,730,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.983,authoring numbering matches Q14191
+9S17,A,852,I852F,I,I,ILE,yes,852,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.983,authoring numbering matches Q14191
+9S18,A,528,L528S,L,L,LEU,yes,528,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.968,authoring numbering matches Q14191
+9S18,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.968,authoring numbering matches Q14191
+9S18,A,729,G729D,G,G,GLY,yes,729,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.968,authoring numbering matches Q14191
+9S18,A,730,F730L,F,F,PHE,yes,730,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.968,authoring numbering matches Q14191
+9S18,A,852,I852F,I,I,ILE,yes,852,,inhibitor-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.968,authoring numbering matches Q14191
+9S19,B,528,L528S,L,L,LEU,yes,528,,DNA-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9S19,B,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,DNA-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9S19,B,729,G729D,G,G,GLY,yes,729,,DNA-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9S19,B,730,F730L,F,F,PHE,yes,730,,DNA-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9S19,B,852,I852F,I,I,ILE,yes,852,,DNA-bound,mmCIF _atom_site auth_seq_id (chain B); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.998,authoring numbering matches Q14191
+9S1A,A,528,L528S,L,,,no,,,apo,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.987,"position 528 outside structure range [529, 939] or disordered"
+9S1A,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,apo,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.987,authoring numbering matches Q14191
+9S1A,A,729,G729D,G,G,GLY,yes,729,,apo,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.987,authoring numbering matches Q14191
+9S1A,A,730,F730L,F,F,PHE,yes,730,,apo,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.987,authoring numbering matches Q14191
+9S1A,A,852,I852F,I,I,ILE,yes,852,,apo,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.987,authoring numbering matches Q14191
+9S1B,A,528,L528S,L,L,LEU,yes,528,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.993,authoring numbering matches Q14191
+9S1B,A,727,"C727A, C727S, C727R",C,C,CYS,yes,727,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.993,authoring numbering matches Q14191
+9S1B,A,729,G729D,G,G,GLY,yes,729,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.993,authoring numbering matches Q14191
+9S1B,A,730,F730L,F,F,PHE,yes,730,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.993,authoring numbering matches Q14191
+9S1B,A,852,I852F,I,I,ILE,yes,852,,covalent-ligand-bound,mmCIF _atom_site auth_seq_id (chain A); anchor UniProt Q14191 canonical 1432 aa; alignment identity 0.993,authoring numbering matches Q14191

@@ -1,0 +1,3 @@
+# Ligand: AbbVie_DEL_series
+# Status: NOT PUBLICLY VERIFIED
+# Notes: AbbVie DNA-encoded library-derived WRN inhibitors. PubChem: 0 hits. ChEMBL: 0 verified hits. No public SMILES available for named compounds. Note: RCSB 9OG3/9OG8 contain DEL-screen-derived inhibitors (A1CA4, A1CA5) with structures deposited but paper attribution is unclear whether AbbVie.
