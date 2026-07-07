@@ -163,7 +163,7 @@ For each of the 3 verified Phase 1 inhibitors (HRO761, VVD-214, GSK4418959):
 
 For the 3 RCSB CCD ideal SDFs (YHC, YH8, X1L): downloaded via `https://files.rcsb.org/ligands/download/{ccd}_ideal.sdf` (unmodified).
 
-For the 3 unverified inhibitors (SNV5686, J&J, AbbVie): wrote `NOT_PUBLICLY_VERIFIED.txt` explanatory stub.
+For the 3 unverified inhibitors (SNV5686, J&J, AbbVie): wrote explanatory stub files named `*_NOT_PUBLICLY_VERIFIED.smiles.txt`.
 
 **Total:** 12 files in `ligand_structure_files/`.
 
@@ -175,7 +175,7 @@ Assembled `structure_inventory.csv` (37 rows), `residue_mapping_table.csv` (185 
 - All 3 CSVs re-load cleanly via `pandas.read_csv`.
 - Structure_inventory has 100% coverage of `source_database_url_or_identifier` and `validated_source` columns.
 - Residue mapping is 179/185 = 96.8% correct.
-- No `GSK959` grep hits (per acceptance criterion).
+- No `GSK959` grep hits in the delivered data tables (`structure_inventory.csv`, `residue_mapping_table.csv`, `ligand_inventory.csv`). The term may still appear in audit prose where the alias-exclusion check itself is documented.
 
 ### Step 12 — Markdown deliverables
 
@@ -195,9 +195,9 @@ Run 11-item acceptance checklist per PLAN.md §16. Stop with the required phrase
 4. **`Chem.Descriptors` AttributeError** — wrong import path; fixed by `from rdkit.Chem import Descriptors`.
 5. **8YLE and 9HZG residue ranges** — only revealed at Step 7 (coordinate-level check), not at earlier metadata-only stages. Documented in exclusion log.
 
-## Intermediate JSON artifacts (preserved for audit)
+## Intermediate JSON artifacts (execution-time working directory)
 
-All in `/workspace/wrn_phase2_structures/`:
+These artifacts were generated in `/workspace/wrn_phase2_structures/` during the original Phase 2 run. They are listed here for reproducibility, but they are not part of the versioned repository handoff unless separately copied into the project workspace:
 
 - `rcsb_entity_search_raw.json`
 - `rcsb_metadata_raw.json`
