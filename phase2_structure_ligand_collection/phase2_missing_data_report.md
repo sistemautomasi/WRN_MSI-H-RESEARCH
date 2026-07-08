@@ -111,3 +111,18 @@ All 6 do resolve C727/G729/F730/I852 correctly. Total residue-mapping coverage a
 - All ligand SDFs in `ligand_structure_files/` are either (a) RCSB CCD ideal SDFs (untouched) or (b) RDKit-generated 3D from the canonical SMILES retrieved from PubChem.
 - No structural predictions have been made.
 - No mutant models exist in Phase 2 — this is out of scope until Phase 3.
+
+## 9. HRO761 template mutation status: 8PFO vs 9S18
+
+8PFO is the highest-resolution HRO761 cocrystal used in Phase 2, but RCSB marks the construct as having mutations. 9S18 is an alternative HRO761-bound WRN structure marked as mutation-free in RCSB. Downstream Phase 3 template selection should document which HRO761 template is used and why.
+
+**Details verified from mmCIF `struct_ref_mut` records:**
+
+| PDB | Resolution | Citation | Mutation status | Engineered mutations |
+|---|---|---|---|---|
+| 8PFO | 1.90 Å | Ferretti et al. Nature 2024 | 6 engineered surface mutations | E625A, R564A, R785A, R803A, E886A, R942A |
+| 9S18 | 1.995 Å | Fletcher et al. Commun Biol 2026 | Mutation-free | none |
+
+- **8PFO** `_entity.pdbx_mutation` = `E625A, R564A, R785A, R803A, E886A, R942A`; entity description = `WRN helicase domain with 6 surface mutations`. Six `struct_ref_mut` records confirm each as an engineered mutation. Primary citation: Ferretti et al., "Discovery of WRN inhibitor HRO761 with synthetic lethality in MSI cancers," Nature 2024.
+- **9S18** `_entity.pdbx_mutation` = `?` (none); no `struct_ref_mut` records present. Primary citation: Fletcher et al., "Structural insights into WRN helicase reveal conformational states and opportunities for MSI-H cancer drug discovery," Commun Biol 2026.
+- **Implication for Phase 3:** None of the 6 engineered mutations in 8PFO (E625A, R564A, R785A, R803A, E886A, R942A) coincide with the 5 key resistance residues (L528, C727, G729, F730, I852), so the mutations do not directly perturb the inhibitor-binding or resistance-relevant positions. However, if a mutation-free WT construct is preferred for mutant modeling, 9S18 is the mutation-free alternative at slightly lower resolution (1.995 Å vs 1.90 Å). Phase 3 template selection must document this choice.

@@ -175,7 +175,7 @@ Assembled `structure_inventory.csv` (37 rows), `residue_mapping_table.csv` (185 
 - All 3 CSVs re-load cleanly via `pandas.read_csv`.
 - Structure_inventory has 100% coverage of `source_database_url_or_identifier` and `validated_source` columns.
 - Residue mapping is 179/185 = 96.8% correct.
-- No `GSK959` grep hits in the delivered data tables (`structure_inventory.csv`, `residue_mapping_table.csv`, `ligand_inventory.csv`). The term may still appear in audit prose where the alias-exclusion check itself is documented.
+- No excluded-alias grep hits in the delivered data tables (`structure_inventory.csv`, `residue_mapping_table.csv`, `ligand_inventory.csv`). The excluded three-digit-suffix alias is not used anywhere in the data.
 
 ### Step 12 — Markdown deliverables
 
