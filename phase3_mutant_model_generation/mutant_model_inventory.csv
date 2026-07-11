@@ -1,0 +1,33 @@
+model_id,template_pdb_id,mutation,wt_residue,position,mutant_residue,conformational_state,ligand_treatment,model_file,side_chain_method,missing_atoms_added,hydrogens_added,verification_status,notes
+9MJT_WT,9MJT,WT,-,-,-,apo,none,prepared_wt_templates/9MJT_WT_prepared.pdb,PDBFixer (original coordinates preserved),yes,yes (pH 7.0),verified,"WT prepared template, chain A"
+9S18_WT,9S18,WT,-,-,-,inhibitor-bound (HRO761),kept,prepared_wt_templates/9S18_WT_prepared.pdb,PDBFixer (original coordinates preserved),yes,yes (pH 7.0),verified,"WT prepared template, chain A"
+7GQU_WT,7GQU,WT,-,-,-,covalent-ligand-bound (VVD-214),kept,prepared_wt_templates/7GQU_WT_prepared.pdb,PDBFixer (original coordinates preserved),yes,yes (pH 7.0),verified,"WT prepared template, chain A"
+9S19_WT,9S19,WT,-,-,-,DNA-bound,none,prepared_wt_templates/9S19_WT_prepared.pdb,PDBFixer (original coordinates preserved),yes,yes (pH 7.0),verified,"WT prepared template, chain B"
+9MJT_L528S,9MJT,L528S,LEU,528,SER,apo,kept,mutant_models/9MJT_L528S.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+9MJT_C727A,9MJT,C727A,CYS,727,ALA,apo,kept,mutant_models/9MJT_C727A.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+9MJT_C727S,9MJT,C727S,CYS,727,SER,apo,kept,mutant_models/9MJT_C727S.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+9MJT_C727R,9MJT,C727R,CYS,727,ARG,apo,kept,mutant_models/9MJT_C727R.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+9MJT_G729D,9MJT,G729D,GLY,729,ASP,apo,kept,mutant_models/9MJT_G729D.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+9MJT_F730L,9MJT,F730L,PHE,730,LEU,apo,kept,mutant_models/9MJT_F730L.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+9MJT_I852F,9MJT,I852F,ILE,852,PHE,apo,kept,mutant_models/9MJT_I852F.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+9S18_L528S,9S18,L528S,LEU,528,SER,inhibitor-bound (HRO761),kept,mutant_models/9S18_L528S.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+9S18_C727A,9S18,C727A,CYS,727,ALA,inhibitor-bound (HRO761),kept,mutant_models/9S18_C727A.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+9S18_C727S,9S18,C727S,CYS,727,SER,inhibitor-bound (HRO761),kept,mutant_models/9S18_C727S.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+9S18_C727R,9S18,C727R,CYS,727,ARG,inhibitor-bound (HRO761),kept,mutant_models/9S18_C727R.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+9S18_G729D,9S18,G729D,GLY,729,ASP,inhibitor-bound (HRO761),kept,mutant_models/9S18_G729D.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+9S18_F730L,9S18,F730L,PHE,730,LEU,inhibitor-bound (HRO761),kept,mutant_models/9S18_F730L.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+9S18_I852F,9S18,I852F,ILE,852,PHE,inhibitor-bound (HRO761),kept,mutant_models/9S18_I852F.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+7GQU_L528S,7GQU,L528S,LEU,528,SER,covalent-ligand-bound (VVD-214),kept,mutant_models/7GQU_L528S.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+7GQU_C727A,7GQU,C727A,CYS,727,ALA,covalent-ligand-bound (VVD-214),removed (C727 mutation on covalent template),mutant_models/7GQU_C727A_nolig.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,"Chain A, X1L ligand removed (C727 mutation on covalent template)"
+7GQU_C727S,7GQU,C727S,CYS,727,SER,covalent-ligand-bound (VVD-214),removed (C727 mutation on covalent template),mutant_models/7GQU_C727S_nolig.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,"Chain A, X1L ligand removed (C727 mutation on covalent template)"
+7GQU_C727R,7GQU,C727R,CYS,727,ARG,covalent-ligand-bound (VVD-214),removed (C727 mutation on covalent template),mutant_models/7GQU_C727R_nolig.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,"Chain A, X1L ligand removed (C727 mutation on covalent template)"
+7GQU_G729D,7GQU,G729D,GLY,729,ASP,covalent-ligand-bound (VVD-214),kept,mutant_models/7GQU_G729D.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+7GQU_F730L,7GQU,F730L,PHE,730,LEU,covalent-ligand-bound (VVD-214),kept,mutant_models/7GQU_F730L.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+7GQU_I852F,7GQU,I852F,ILE,852,PHE,covalent-ligand-bound (VVD-214),kept,mutant_models/7GQU_I852F.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain A
+9S19_L528S,9S19,L528S,LEU,528,SER,DNA-bound,kept,mutant_models/9S19_L528S.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain B
+9S19_C727A,9S19,C727A,CYS,727,ALA,DNA-bound,kept,mutant_models/9S19_C727A.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain B
+9S19_C727S,9S19,C727S,CYS,727,SER,DNA-bound,kept,mutant_models/9S19_C727S.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain B
+9S19_C727R,9S19,C727R,CYS,727,ARG,DNA-bound,kept,mutant_models/9S19_C727R.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain B
+9S19_G729D,9S19,G729D,GLY,729,ASP,DNA-bound,kept,mutant_models/9S19_G729D.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain B
+9S19_F730L,9S19,F730L,PHE,730,LEU,DNA-bound,kept,mutant_models/9S19_F730L.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain B
+9S19_I852F,9S19,I852F,ILE,852,PHE,DNA-bound,kept,mutant_models/9S19_I852F.pdb,PDBFixer applyMutations + addMissingAtoms,yes,yes (pH 7.0),verified,Chain B
