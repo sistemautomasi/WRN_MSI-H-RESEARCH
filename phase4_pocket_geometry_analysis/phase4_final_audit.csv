@@ -1,0 +1,31 @@
+check,pass,note
+file phase4_master.csv,True,results=True repo=True
+file phase4_deltas.csv,True,results=True repo=True
+file phase4_cross_validation.csv,True,results=True repo=True
+file phase4_9S19_dual_pocket.csv,True,results=True repo=True
+file vdw_clashes.csv,True,results=True repo=True
+file vdw_clashes_full.csv,True,results=True repo=True
+file pocket_rmsd.csv,True,results=True repo=True
+file pocket_residue_geometry.csv,True,results=True repo=True
+file sidechain_shifts.csv,True,results=True repo=True
+file pocket_metrics_global.csv,True,results=True repo=True
+file pocket_metrics_global_corrected.csv,True,results=True repo=True
+file pocket_metrics_top3.csv,True,results=True repo=True
+file anchor_coordinates.csv,True,results=True repo=True
+file clash_details_parsed.csv,True,results=True repo=True
+master 32 rows,True,"32 rows, 20 cols"
+deltas 28 rows,True,28 rows
+cv 7 rows,True,7 rows
+clash count master↔full consistency,True,all match
+rmsd 34 rows,True,34 rows
+figure fig1_volume_delta_heatmap,True,png=True svg=True
+figure fig2_druggability_delta_heatmap,True,png=True svg=True
+figure fig3_clash_matrix,True,png=True svg=True
+figure fig4_clash_pattern,True,png=True svg=True
+report phase4_pocket_geometry_report.md,True,18047 bytes
+report phase4_missing_data_report.md,True,8599 bytes
+report phase4_summary.md,True,2222 bytes
+report phase4_verification_checklist.md,True,8159 bytes
+9S19 WT drug pocket 303 Å³,True,volume=303.2
+G729D total clashes 22 (druggable),True,sum=22
+7GQU_C727R_nolig 13 clashes,True,n_clashes=13

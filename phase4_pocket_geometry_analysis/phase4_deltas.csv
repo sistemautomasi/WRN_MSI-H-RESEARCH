@@ -1,0 +1,29 @@
+structure_id,template,mutation,is_nolig,low_druggability_state,wt_volume,mut_volume,delta_volume_A3,delta_volume_pct,wt_druggability,mut_druggability,delta_druggability,delta_polar_sasa,delta_apolar_sasa,n_clashes,rmsd_pocket_local,verdict
+7GQU_C727A_nolig,7GQU,C727A,True,False,1290.705,414.873,-875.832,-67.857,0.908,0.592,-0.316,-47.586,-11.839,0,0.0,perturbed: volΔ-68%
+7GQU_C727R_nolig,7GQU,C727R,True,False,1290.705,359.331,-931.374,-72.16,0.908,0.572,-0.336,-49.663,-32.368,13,0.0,perturbed: volΔ-72% + 13clash
+7GQU_C727S_nolig,7GQU,C727S,True,False,1290.705,1359.683,68.978,5.344,0.908,0.144,-0.764,60.245,114.962,0,0.0,preserved
+7GQU_F730L,7GQU,F730L,False,False,1290.705,1283.377,-7.328,-0.568,0.908,0.908,0.0,0.0,0.0,0,0.0,preserved
+7GQU_G729D,7GQU,G729D,False,False,1290.705,1315.686,24.981,1.935,0.908,0.908,0.0,0.0,0.0,11,0.0,perturbed: 11clash
+7GQU_I852F,7GQU,I852F,False,False,1290.705,1296.7,5.995,0.464,0.908,0.908,0.0,0.0,0.0,2,0.0,perturbed: 2clash
+7GQU_L528S,7GQU,L528S,False,False,1290.705,1293.703,2.998,0.232,0.908,0.908,0.0,0.0,0.0,0,0.0,preserved
+9MJT_C727A,9MJT,C727A,False,False,1207.35,1112.398,-94.952,-7.864,0.871,0.863,-0.008,-10.87,-7.384,0,0.0,preserved
+9MJT_C727R,9MJT,C727R,False,False,1207.35,1465.654,258.304,21.394,0.871,0.884,0.013,28.752,54.126,0,0.0,perturbed: volΔ+21%
+9MJT_C727S,9MJT,C727S,False,False,1207.35,1143.049,-64.301,-5.326,0.871,0.869,-0.002,0.939,-30.329,0,0.0,preserved
+9MJT_F730L,9MJT,F730L,False,False,1207.35,1243.797,36.447,3.019,0.871,0.881,0.01,0.0,1.207,0,0.0,preserved
+9MJT_G729D,9MJT,G729D,False,False,1207.35,1222.674,15.324,1.269,0.871,0.845,-0.026,8.572,-6.118,7,0.0,perturbed: 7clash
+9MJT_I852F,9MJT,I852F,False,False,1207.35,1246.283,38.933,3.225,0.871,0.881,0.01,0.0,0.0,2,0.0,perturbed: 2clash
+9MJT_L528S,9MJT,L528S,False,False,1207.35,1198.651,-8.699,-0.721,0.871,0.881,0.01,0.0,0.0,0,0.0,preserved
+9S18_C727A,9S18,C727A,False,False,1570.078,1602.31,32.232,2.053,0.941,0.936,-0.005,-1.115,-1.287,0,0.0,preserved
+9S18_C727R,9S18,C727R,False,False,1570.078,1129.684,-440.394,-28.049,0.941,0.974,0.033,-32.387,-27.855,0,0.0,perturbed: volΔ-28%
+9S18_C727S,9S18,C727S,False,False,1570.078,1512.716,-57.362,-3.653,0.941,0.943,0.002,3.215,-9.74,0,0.0,preserved
+9S18_F730L,9S18,F730L,False,False,1570.078,1549.318,-20.76,-1.322,0.941,0.921,-0.02,-2.187,0.0,0,0.0,preserved
+9S18_G729D,9S18,G729D,False,False,1570.078,1555.328,-14.75,-0.939,0.941,0.921,-0.02,-2.187,0.0,4,0.0,perturbed: 4clash
+9S18_I852F,9S18,I852F,False,False,1570.078,1602.31,32.232,2.053,0.941,0.947,0.006,0.0,0.0,2,0.0,perturbed: 2clash
+9S18_L528S,9S18,L528S,False,False,1570.078,1570.624,0.546,0.035,0.941,0.941,0.0,0.0,0.0,0,0.0,preserved
+9S19_C727A,9S19,C727A,False,True,303.223,382.404,79.181,26.113,0.0,0.009,0.009,-44.196,56.758,0,0.0,[low-drug state] perturbed: volΔ+26%
+9S19_C727R,9S19,C727R,False,True,303.223,363.465,60.242,19.867,0.0,0.005,0.005,-44.196,56.758,0,0.0,[low-drug state] perturbed: volΔ+20%
+9S19_C727S,9S19,C727S,False,True,303.223,380.371,77.148,25.443,0.0,0.006,0.006,-44.196,56.758,0,0.0,[low-drug state] perturbed: volΔ+25%
+9S19_F730L,9S19,F730L,False,True,303.223,382.404,79.181,26.113,0.0,0.01,0.01,-44.196,56.758,0,0.0,[low-drug state] perturbed: volΔ+26%
+9S19_G729D,9S19,G729D,False,True,303.223,161.117,-142.106,-46.865,0.0,0.0,0.0,-39.037,-1.208,0,0.0,[low-drug state] perturbed: volΔ-47%
+9S19_I852F,9S19,I852F,False,True,303.223,384.757,81.534,26.889,0.0,0.01,0.01,-44.196,56.758,0,0.0,[low-drug state] perturbed: volΔ+27%
+9S19_L528S,9S19,L528S,False,True,303.223,382.725,79.502,26.219,0.0,0.009,0.009,-44.196,56.758,0,0.0,[low-drug state] perturbed: volΔ+26%

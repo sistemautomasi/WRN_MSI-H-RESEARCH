@@ -1,0 +1,36 @@
+{
+  "9MJT": {
+    "wt_offset": -499,
+    "mut_offset": -516,
+    "wt_len": 443,
+    "mut_len": 426,
+    "chain_wt": "A",
+    "chain_mut": "A"
+  },
+  "9S18": {
+    "wt_offset": -500,
+    "mut_offset": -521,
+    "wt_len": 443,
+    "mut_len": 422,
+    "chain_wt": "A",
+    "chain_mut": "A"
+  },
+  "7GQU": {
+    "wt_offset": -515,
+    "mut_offset": -526,
+    "wt_len": 439,
+    "mut_len": 419,
+    "chain_wt": "A",
+    "chain_mut": "A"
+  },
+  "9S19": {
+    "wt_offset": -514,
+    "mut_offset": -524,
+    "wt_len": 427,
+    "mut_len": 409,
+    "chain_wt": "C",
+    "chain_mut": "C",
+    "n_rebuild_artifacts": 14,
+    "seq_identity_pct": 96.6
+  }
+}

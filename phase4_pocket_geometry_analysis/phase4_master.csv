@@ -1,0 +1,33 @@
+structure_id,template,mutation,is_wt,is_nolig,low_druggability_state,pocket_id,volume,volume_delta_pct,druggability_score,druggability_delta,polar_sasa,apolar_sasa,hydrophobicity_score,n_clashes,rmsd_global_ca,rmsd_pocket_local,rmsd_mut_site_pm5,dist_to_anchor,verdict
+7GQU_WT_prepared,7GQU,,True,False,False,2,1290.705,0.0,0.908,0.0,81.023,119.555,29.188,0,,,,5.055,WT baseline
+7GQU_C727A_nolig,7GQU,C727A,False,True,False,19,414.873,-67.857,0.592,-0.316,33.437,107.716,47.125,0,0.0,0.0,0.0,3.981,perturbed: volΔ-68%
+7GQU_C727R_nolig,7GQU,C727R,False,True,False,7,359.331,-72.16,0.572,-0.336,31.36,87.187,43.688,13,0.0,0.0,0.0,4.179,perturbed: volΔ-72% + 13clash
+7GQU_C727S_nolig,7GQU,C727S,False,True,False,19,1359.683,5.344,0.144,-0.764,141.268,234.517,27.5,0,0.0,0.0,0.0,4.942,preserved
+7GQU_F730L,7GQU,F730L,False,False,False,2,1283.377,-0.568,0.908,0.0,81.023,119.555,29.094,0,0.0,0.0,0.0,5.055,preserved
+7GQU_G729D,7GQU,G729D,False,False,False,2,1315.686,1.935,0.908,0.0,81.023,119.555,27.469,11,0.0,0.0,0.0,5.009,perturbed: 11clash
+7GQU_I852F,7GQU,I852F,False,False,False,2,1296.7,0.464,0.908,0.0,81.023,119.555,29.188,2,0.0,0.0,0.0,5.055,perturbed: 2clash
+7GQU_L528S,7GQU,L528S,False,False,False,2,1293.703,0.232,0.908,0.0,81.023,119.555,29.188,0,0.0,0.0,0.0,5.055,preserved
+9MJT_WT_prepared,9MJT,,True,False,False,2,1207.35,0.0,0.871,0.0,124.258,253.087,20.486,0,,,,3.184,WT baseline
+9MJT_C727A,9MJT,C727A,False,False,False,2,1112.398,-7.864,0.863,-0.008,113.388,245.703,20.257,0,0.0,0.0,0.0,3.577,preserved
+9MJT_C727R,9MJT,C727R,False,False,False,2,1465.654,21.394,0.884,0.013,153.01,307.213,14.973,0,0.0,0.0,0.0,3.015,perturbed: volΔ+21%
+9MJT_C727S,9MJT,C727S,False,False,False,1,1143.049,-5.326,0.869,-0.002,125.197,222.758,18.943,0,0.0,0.0,0.0,3.371,preserved
+9MJT_F730L,9MJT,F730L,False,False,False,2,1243.797,3.019,0.881,0.01,124.258,254.294,20.4,0,0.0,0.0,0.0,3.153,preserved
+9MJT_G729D,9MJT,G729D,False,False,False,2,1222.674,1.269,0.845,-0.026,132.83,246.969,18.914,7,0.0,0.0,0.0,3.173,perturbed: 7clash
+9MJT_I852F,9MJT,I852F,False,False,False,2,1246.283,3.225,0.881,0.01,124.258,253.087,20.486,2,0.0,0.0,0.0,3.153,perturbed: 2clash
+9MJT_L528S,9MJT,L528S,False,False,False,2,1198.651,-0.721,0.881,0.01,124.258,253.087,20.486,0,0.0,0.0,0.0,3.153,preserved
+9S18_WT_prepared,9S18,,True,False,False,1,1570.078,0.0,0.941,0.0,98.277,118.486,21.343,0,,,,0.895,WT baseline
+9S18_C727A,9S18,C727A,False,False,False,1,1602.31,2.053,0.936,-0.005,97.162,117.199,21.114,0,0.0,0.0,0.0,1.223,preserved
+9S18_C727R,9S18,C727R,False,False,False,1,1129.684,-28.049,0.974,0.033,65.89,90.631,23.714,0,0.0,0.0,0.0,2.565,perturbed: volΔ-28%
+9S18_C727S,9S18,C727S,False,False,False,1,1512.716,-3.653,0.943,0.002,101.492,108.746,18.147,0,0.0,0.0,0.0,0.969,preserved
+9S18_F730L,9S18,F730L,False,False,False,1,1549.318,-1.322,0.921,-0.02,96.09,118.486,21.5,0,0.0,0.0,0.0,1.228,preserved
+9S18_G729D,9S18,G729D,False,False,False,1,1555.328,-0.939,0.921,-0.02,96.09,118.486,21.343,4,0.0,0.0,0.0,1.169,perturbed: 4clash
+9S18_I852F,9S18,I852F,False,False,False,1,1602.31,2.053,0.947,0.006,98.277,118.486,21.371,2,0.0,0.0,0.0,0.829,perturbed: 2clash
+9S18_L528S,9S18,L528S,False,False,False,1,1570.624,0.035,0.941,0.0,98.277,118.486,21.588,0,0.0,0.0,0.0,0.934,preserved
+9S19_WT_prepared,9S19,WT,True,False,True,66,303.223,0.0,0.0,0.0,70.154,26.568,27.714,0,,,,5.583,WT baseline (no coherent drug pocket in DNA-bound state)
+9S19_C727A,9S19,C727A,False,False,True,40,382.404,26.113,0.009,0.009,25.958,83.326,18.5,0,2.291,0.0,0.0,13.464,[low-drug state] perturbed: volΔ+26%
+9S19_C727R,9S19,C727R,False,False,True,36,363.465,19.867,0.005,0.005,25.958,83.326,18.5,0,2.291,0.0,0.0,13.464,[low-drug state] perturbed: volΔ+20%
+9S19_C727S,9S19,C727S,False,False,True,31,380.371,25.443,0.006,0.006,25.958,83.326,18.5,0,2.291,0.0,0.0,13.464,[low-drug state] perturbed: volΔ+25%
+9S19_F730L,9S19,F730L,False,False,True,37,382.404,26.113,0.01,0.01,25.958,83.326,18.5,0,2.291,0.0,0.0,13.464,[low-drug state] perturbed: volΔ+26%
+9S19_G729D,9S19,G729D,False,False,True,47,161.117,-46.865,0.0,0.0,31.117,25.36,1.4,0,2.291,0.0,0.0,9.215,[low-drug state] perturbed: volΔ-47%
+9S19_I852F,9S19,I852F,False,False,True,39,384.757,26.889,0.01,0.01,25.958,83.326,18.5,0,2.291,0.0,0.0,13.464,[low-drug state] perturbed: volΔ+27%
+9S19_L528S,9S19,L528S,False,False,True,41,382.725,26.219,0.009,0.009,25.958,83.326,18.5,0,2.291,0.0,0.0,13.464,[low-drug state] perturbed: volΔ+26%

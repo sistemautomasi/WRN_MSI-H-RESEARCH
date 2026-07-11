@@ -1,0 +1,5 @@
+template,anchor_type,ligand_id,chain,canonical_resid,file_resid,x,y,z,n_atoms_in_anchor
+9MJT,C727_SG,,A,727.0,228.0,-6.592,2.133,6.493,1
+9S18,ligand_centroid,YHC,B,,,27.649649999999998,0.7025625000000001,17.785125,80
+7GQU,ligand_centroid,X1L,B,,,18.737415094339624,21.286754716981132,15.375509433962263,53
+9S19,ligand_centroid,AGS,D,,,-0.6,61.44,41.48,47
