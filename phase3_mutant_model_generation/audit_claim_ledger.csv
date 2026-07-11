@@ -1,0 +1,40 @@
+claim_id,category,claim_text,source1_csv,source2_mmcif,source3_rcsb_api,verdict,notes
+A1,State counts,37 total in-scope structures,37 rows in structure_inventory.csv,37 CIFs parsed,RCSB N/A,PASS,
+A2,State counts,Covalent-ligand-bound count = 10,10,10 mmCIFs with covalent Cys727 SG—ligand C bond,RCSB N/A,PASS,
+A3,State counts,Non-covalent inhibitor-bound count = 10,10,10 mmCIFs with drug-like ligand no covalent bond,RCSB N/A,PASS,
+A4,State counts,Fragment-bound count = 9,9,9 mmCIFs with fragment-sized ligand,RCSB N/A,PASS,
+A5,State counts,Nucleotide-bound count = 5,5,5 mmCIFs with only ADP/ATP/AGS/ANP,RCSB N/A,PASS,
+A6,State counts,Apo count = 2,2,"2 mmCIFs with no drug-like or nucleotide ligand (9MJT, 9S1A)",RCSB N/A,PASS,
+A7,State counts,DNA-bound count = 1,1,1 mmCIF (9S19) with polydeoxyribonucleotide entity,RCSB N/A,PASS,
+A8,State counts,Sum = 37,sum(state_counts) = 37,sum = 37,N/A,PASS,
+B1,Exclusion,"10 classic exonuclease excluded (2AXL,2DGZ,2E1E,2E1F,2FBT,2FBV,2FBX,2FBY,2FC0,3AAF)",Transcript recorded 10 exclusions matching list,Not in the 37-CIF corpus,Historic entries in RCSB but outside inventory scope,PASS,
+B2,Exclusion,7XUT excluded — RPA70N-WRN fusion,Excluded in Phase 2 refinement per transcript,Not in 37-CIF corpus,RCSB confirms: RPA70N-WRN fusion protein 140 aa total,PASS,
+B3,Exclusion,6TYV excluded — Ku80 + 13-aa WRN peptide,Excluded in Phase 2 refinement per transcript,Not in 37-CIF corpus,RCSB confirms: Ku80 vWA + WRN Ku-binding motif peptide,PASS,
+B4,Exclusion,8YLE excluded — N-terminal/exonuclease domain only (res 9-428),Excluded in Phase 2 refinement per transcript,Not in 37-CIF corpus,"RCSB confirms: residue range 9-428, no helicase core",PASS,
+B5,Exclusion,9HZG excluded — WRN exonuclease domain (res 12-231),Excluded in Phase 2 refinement per transcript,Not in 37-CIF corpus,"RCSB confirms: residue range 12-231, no helicase core",PASS,
+C1,9MJT props,9MJT resolution = 1.73 Å,1.73 Å,1.73 Å,1.73 Å,PASS,
+C2,9MJT props,"9MJT has all 5 residues (L528, C727, G729, F730, I852)","L528=yes, C727=yes, G729=yes, F730=yes, I852=yes",All 5 present per residue_mapping (residue_present_and_correct=yes),"seq_len=443, mutations=0",PASS,
+C3,9MJT props,9MJT is apo (no drug-like or nucleotide ligand),structure_state = apo,"nonpolymer_ligands: ZN, HOH, CL, EDO only",N/A,PASS,
+C4,9S1A alt,9S1A alternative apo missing L528,"L528_present=no, residue_range=529-939",residue_mapping shows L528 missing (auth_seq_id NaN),seq_len=1.956,PASS,
+C5,9S1A alt,9S1A is apo state (no ligand),structure_state = apo,"nonpolymer_ligands: ZN, HOH, PEG only (no drug/nucleotide)",N/A,PASS,
+D1,9S18 props,9S18 resolution = 1.995 Å,1.995 Å,1.995 Å,1.995 Å,PASS,
+D2,9S18 props,9S18 has YHC (HRO761),ligand CCD = YHC,non-polymer YHC present,RCSB CCD YHC = HRO761 IUPAC,PASS,
+D3,9S18 props,9S18 is mutation-free (wild-type),structure_inventory does not explicitly list mut count,0 engineered mutations from struct_ref_seq_dif; _entity.pdbx_mutation=?,rcsb_mutation_count=0,PASS,
+D4,8PFO alt,8PFO alternative HRO761 template,"structure_state=inhibitor-bound, ligand=YHC",Same YHC ligand present,RCSB confirms YHC = HRO761,PASS,
+D5,8PFO alt,8PFO resolution = 1.9 Å (higher than 9S18),1.9 Å,1.88 Å (=1.88),1.9 Å (=1.9 rounded),PASS,CSV+mmCIF=1.88; RCSB display=1.9 rounded
+D6,8PFO alt,"8PFO has 6 engineered mutations (E625A, R564A, R785A, R803A, E886A, R942A)",structure_inventory does not tabulate mutation list,"6 struct_ref_seq_dif engineered mutations at positions 564,625,785,803,886,942 (all -> ALA)",rcsb_mutation_count=6,PASS,6 muts confirmed; identity matches rationale
+E1,7GQU props,7GQU resolution = 1.54 Å,1.54 Å,1.54 Å,1.54 Å,PASS,
+E2,7GQU props,7GQU has X1L (VVD-214 covalent adduct),ligand CCD = X1L,X1L present with Cys727 covalent bond,RCSB Kikuchi 2025 J Med Chem: 'cocrystal structure of VVD-214 bound to WRN (PDB: 7GQU)',PASS,
+E3,7GQU props,7GQU S–C distance = 1.82 Å,covalent_distance_A = 1.820;1.807,"gemmi _struct_conn: 1.82, 1.807 Å (dual conformer)",N/A (RCSB doesn't tabulate LINK distances directly),PASS,
+E4,9OG8 alt,9OG8 alternative covalent,"structure_state=covalent-ligand-bound, resolution=1.66 Å",resolution=1.66 Å,resolution=1.66 Å,PASS,
+E5,9OG8 alt,9OG8 S–C = 1.428 Å (anomalously short),covalent_distance_A = 1.428,gemmi _struct_conn: 1.428 Å (single conformer),N/A,PASS,Normal C-S single bond ~1.80-1.83 Å; 1.428 Å is ~0.4 Å shorter than expected
+F1,9S19 props,9S19 is the ONLY DNA-bound structure in the 37 corpus,structure_state='DNA-bound' count = 1,has_dna=True count = 1,N/A (per-entry check confirms polynucleotide entity in 9S19 only),PASS,
+G1,Non-chosen,Nucleotide-bound structures excluded because ATP-site not central to resistance mutations,"6YHR,7GQS,7GQT,8PFP,9MJS all only bind ADP/ATP/AGS/ANP",All 5 confirmed to have no drug-like ligand; only nucleotide,N/A,PASS,Interpretation-based; the observation is factually correct.
+G2,Non-chosen,Fragment-bound structures excluded due to peripheral small-molecule sub-pocket,9MJU–9MK1 + 9RUS bind fragments A1BL0-A1BL8 and GQP,All 9 have low-MW ligands; A1BL series is fragment-screening hits,N/A,PASS,Interpretation-based; the observation is factually correct.
+H1,Table,Fragment-bound table row lists 8 PDBs '+1 more' — the '+1 more' should be named,9RUS is the 9th fragment-bound structure,9RUS parsed successfully; GQP ligand,N/A,PASS-AFTER-CORRECTION,ORIGINAL: '+ 1 more' — MINOR. CORRECTED: '9RUS' spelled out — PASS.
+E6,7GQU props,7GQU is the highest resolution among the 10 covalent-class structures (1.54 Å),structure_inventory ranks 10AK (1.368 Å) < 7GQU (1.54 Å) < 9OG8 (1.66 Å) < 9S17 (1.91 Å) < …,"mmCIF direct: 10AK=1.368 Å, 7GQU=1.54 Å — 10AK is higher resolution","RCSB entry API confirms 10AK=1.37 Å, 7GQU=1.54 Å",PASS-AFTER-CORRECTION,ORIGINAL: '7GQU highest resolution among 10 covalents' — FAIL. CORRECTED: '7GQU binds Phase 1 clinical VVD-214 at 1.54 Å; 10AK has 1.37 Å but binds a different chemotype' — PASS.
+E7,Covalent list,9S1B = GSK-WRN3 recent GSK covalent,structure_inventory drug_like_ligand_names shows GSK compound,cite_title = 'Structural insights into WRN helicase reveal conformational states...',RCSB title: 'WRN helicase in complex with covalent inhibitor GSK_WRN3',PASS,Title explicitly says 'covalent inhibitor GSK_WRN3'
+E8,Covalent list,"10AK, 10AP = cyclic vinyl sulfones 2026","cite_year 2026, cite_title contains 'Cyclic Vinyl Sulfones'",10AK cite: 'Design of Cyclic Vinyl Sulfones as WRN Covalent Inhibitors ...,RCSB confirms 2026 deposit,PASS,
+E9,Covalent list,9S17 = Recent Vividion covalent (2025-07-18),structure_state=covalent-ligand-bound; cite is same as 9S18/9S19 series,deposit 2025-07-18; ligand A1JKV,RCSB title: 'WRN helicase in complex with molecule 81',PASS,Same wave as 9S18/9S19 (Communications Biology 2026)
+E10,Covalent list,"9QBU, 9QBV = GSK compounds (2.1 Å, 2.15 Å)",structure_inventory ligand names,cite_doi=? but title mentions GSK compound codes,9QBU: Crystal structure of WRN in complex with (S)-27 (GSK5819992)...; 9QBV: Crystal structure of WRN in complex with (R)-11 (GSK4766470)...,PASS,
+E11,Covalent list,"9RTI, 9RUR = Vividion series variants",structure_inventory cite BMCL 2026,cite_doi=10.1016/j.bmcl.2025.130421,9RTI: 'Structure of WRN in complex with ATPgS and covalent ligand C'; 9RUR: 'Structure of WRN in complex with ATPgS and covalent ligand C',PASS,Both bind Vividion covalent chemotypes; verified via title.

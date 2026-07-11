@@ -14,7 +14,7 @@ Every mmCIF was parsed for `_struct_conn` LINK records (covalent bonds), non-pol
 |---|---|---|
 | Covalent-ligand-bound (at Cys727) | 10 | 10AK, 10AP, 7GQU, 9OG8, 9QBU, 9QBV, 9RTI, 9RUR, 9S17, 9S1B |
 | Non-covalent inhibitor-bound | 10 | 10AJ, 8PFL, 8PFO, 9OG3, 9OW9, 9OWA, 9OWB, 9OWC, 9OWD, 9S18 |
-| Fragment-bound | 9 | 9MJU, 9MJV, 9MJW, 9MJX, 9MJY, 9MJZ, 9MK0, 9MK1 (+ 1 more) |
+| Fragment-bound | 9 | 9MJU, 9MJV, 9MJW, 9MJX, 9MJY, 9MJZ, 9MK0, 9MK1, 9RUS |
 | Nucleotide-bound (ADP / ATP / AGS / ANP only) | 5 | 6YHR, 7GQS, 7GQT, 8PFP, 9MJS |
 | Apo | 2 | 9MJT, 9S1A |
 | DNA-bound | 1 | 9S19 |
@@ -64,15 +64,18 @@ The 10 covalent structures all share the same binding mode: covalent bond betwee
 
 | Candidate | Resolution | Bound ligand | Notable feature |
 |---|---|---|---|
-| **7GQU** ✓ | 1.54 Å | X1L (VVD-214 covalent adduct) | S–C = 1.82 Å (physically consistent) |
+| 10AK | **1.37 Å** | A1C4L (cyclic vinyl sulfone compound 4, 2026) | Highest resolution in class, but ligand is not VVD-214 |
+| **7GQU** ✓ | 1.54 Å | X1L (**VVD-214** = Phase 1 clinical compound) | S–C = 1.82 Å (physically consistent) |
 | 9OG8 | 1.66 Å | A1CA5 (DEL compound 43) | S–C = 1.428 Å (**anomalously short** — possible modeling artifact) |
-| 9S1B | — | A1JKU (GSK-WRN3) | 2025-07-18 recent GSK covalent |
-| 10AK, 10AP | — | A1C4L, A1C4O | Cyclic vinyl sulfones, 2026 |
-| 9S17 | 1.91 Å | A1JKV | Recent Vividion covalent |
-| 9QBU, 9QBV | 2.1, 2.15 Å | GSK compounds A1I5L, A1I5F | Alternative GSK series |
-| 9RTI, 9RUR | — | A1JJ8, A1JJK | Vividion series variants |
+| 10AP | 2.58 Å | A1C4O | Cyclic vinyl sulfone compound 26, 2026 |
+| 9S17 | 1.91 Å | A1JKV (Vividion molecule 81) | Recent Vividion covalent |
+| 9QBU | 2.10 Å | A1I5L (GSK5819992, (S)-27) | Alternative GSK series |
+| 9QBV | 2.15 Å | A1I5F (GSK4766470, (R)-11) | Alternative GSK series |
+| 9RTI | 2.20 Å | A1JJ8 (compound 7) | Vividion BMCL 2026 series |
+| 9S1B | 2.22 Å | A1JKU (GSK-WRN3) | Recent GSK covalent (2025-07-18) |
+| 9RUR | 2.30 Å | A1JJK (compound 4d) | Vividion BMCL 2026 series |
 
-**Selected: 7GQU** — highest resolution (1.54 Å) among the 10, binds the actual Phase 1 clinical compound (VVD-214), no bond-length anomaly.
+**Selected: 7GQU** — binds the actual Phase 1 clinical compound (VVD-214, cocrystal confirmed in Kikuchi et al. 2025 J Med Chem, DOI 10.1021/acs.jmedchem.5c01805), at 1.54 Å resolution, no bond-length anomaly. 10AK has higher resolution (1.37 Å) but binds a later cyclic-vinyl-sulfone chemotype (compound 4), not the clinical VVD-214. Because the resistance-mechanism question is chemotype-specific ("does the mutation block VVD-214 covalent engagement at Cys727?"), ligand identity is the primary selection axis in this class, not resolution.
 
 ### 3.4 DNA-bound (1 candidate only) — 9S19 by elimination
 
@@ -119,7 +122,7 @@ None of these is currently required to answer the four core resistance-mechanism
 |---|---|---|
 | 9MJT | Apo | Higher-resolution, mutation-free, all 5 resistance residues present |
 | 9S18 | HRO761 (non-covalent inhibitor) | Mutation-free (unlike 8PFO with 6 engineered surface Ala substitutions) |
-| 7GQU | VVD-214 (covalent at Cys727) | Highest resolution in class (1.54 Å), binds actual Phase 1 clinical compound |
+| 7GQU | VVD-214 (covalent at Cys727) | Binds Phase 1 clinical compound VVD-214 at 1.54 Å (10AK has better resolution 1.37 Å but binds a different chemotype) |
 | 9S19 | DNA-bound | Only DNA-bound WRN in the entire 37-entry corpus |
 
 Total: **4 templates covering 4 biologically distinct WRN states** that map directly to the four resistance mechanism questions Phase 3 was designed to address.
