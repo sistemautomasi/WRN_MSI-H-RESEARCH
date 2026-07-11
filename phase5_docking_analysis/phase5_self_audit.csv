@@ -1,0 +1,31 @@
+check,pass,detail
+exists: phase5_docking_report.md,True,size=15797
+exists: phase5_summary.md,True,size=1649
+exists: phase5_missing_data_report.md,True,size=5049
+exists: phase5_verification_checklist.md,True,size=4728
+exists: README.md,True,size=4087
+exists: dock_scores_raw.csv,True,size=4561
+exists: dock_scores_covalent_raw.csv,True,size=2736
+exists: vina_poses.csv,True,size=18285
+exists: vina_poses_with_rmsd.csv,True,size=15418
+exists: phase5_master.csv,True,size=23393
+dock_scores_raw.csv has 50 rows,True,actual=50
+dock_scores_covalent_raw.csv has 24 rows,True,actual=24
+master has 74 rows,True,actual=74
+master has 28 cols,True,actual=28
+verdicts has 63 rows,True,actual=63
+cross-val has 14 rows,True,actual=14
+all non-cov rows status=ok,True,failed=0
+cov: 18 ok,True,actual_ok=18
+cov: 6 blocked,True,actual_blocked=6
+21 resistance verdicts,True,actual=21
+6 cov-blocked verdicts,True,actual=6
+36 neutral verdicts,True,actual=36
+C727R_9S18_HRO761 ΔScore=+6.21,True,actual=6.21
+C727R_9S18_HRO761 RMSD=11.12,True,actual=11.12
+C727R_9S18_HRO761 contact_loss=13,True,actual=13.0
+WT_9S18_HRO761 = -13.540 (design pocket),True,actual=-13.54
+WT_7GQU_VVD-214 = -9.425 (design pocket),True,actual=-9.425
+WT_7GQU_VVD-214_cov = -9.122 (design pocket),True,actual=-9.122
+all 7 figures PNG+SVG present,True,
+no fake MD/Chai-1 claims in main report,True,

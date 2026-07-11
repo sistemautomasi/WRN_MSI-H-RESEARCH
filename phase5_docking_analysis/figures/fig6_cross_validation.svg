@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="784.8pt" height="569.776922pt" viewBox="0 0 784.8 569.776922" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2022-01-01T05:00:00+00:00</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 569.776922 
+L 784.8 569.776922 
+L 784.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="table_1">
+    <g id="patch_2">
+     <path d="M 7.2 105.62102 
+L 264 105.62102 
+L 264 59.735498 
+L 7.2 59.735498 
+z
+" style="fill: #333333; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_1">
+     <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="135.6" y="85.524939" transform="rotate(-0 135.6 85.524939)">Mutation</text>
+    </g>
+    <g id="patch_3">
+     <path d="M 264 105.62102 
+L 520.8 105.62102 
+L 520.8 59.735498 
+L 264 59.735498 
+z
+" style="fill: #333333; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_2">
+     <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="392.4" y="85.524939" transform="rotate(-0 392.4 85.524939)">HRO761</text>
+    </g>
+    <g id="patch_4">
+     <path d="M 520.8 105.62102 
+L 777.6 105.62102 
+L 777.6 59.735498 
+L 520.8 59.735498 
+z
+" style="fill: #333333; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_3">
+     <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="649.2" y="85.524939" transform="rotate(-0 649.2 85.524939)">VVD-214</text>
+    </g>
+    <g id="patch_5">
+     <path d="M 7.2 151.506541 
+L 264 151.506541 
+L 264 105.62102 
+L 7.2 105.62102 
+z
+" style="fill: #f0f0f0; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_4">
+     <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle" x="135.6" y="131.41046" transform="rotate(-0 135.6 131.41046)">L528S</text>
+    </g>
+    <g id="patch_6">
+     <path d="M 264 151.506541 
+L 520.8 151.506541 
+L 520.8 105.62102 
+L 264 105.62102 
+z
+" style="fill: #ff9400; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(369.637734 121.097472)">single state</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(377.644219 130.892882)">[partial]</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(376.145859 140.688292)">(1/3 sig)</text>
+    </g>
+    <g id="patch_7">
+     <path d="M 520.8 151.506541 
+L 777.6 151.506541 
+L 777.6 105.62102 
+L 520.8 105.62102 
+z
+" style="fill: #ff9400; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(626.437734 121.097472)">single state</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(634.444219 130.892882)">[partial]</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(632.945859 140.688292)">(1/6 sig)</text>
+    </g>
+    <g id="patch_8">
+     <path d="M 7.2 197.392063 
+L 264 197.392063 
+L 264 151.506541 
+L 7.2 151.506541 
+z
+" style="fill: #f0f0f0; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_7">
+     <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle" x="135.6" y="177.295982" transform="rotate(-0 135.6 177.295982)">C727A</text>
+    </g>
+    <g id="patch_9">
+     <path d="M 264 197.392063 
+L 520.8 197.392063 
+L 520.8 151.506541 
+L 264 151.506541 
+z
+" style="fill: #ff9400; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(363.639375 166.982993)">multiple states</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(377.644219 176.778403)">[partial]</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(376.145859 186.573814)">(2/3 sig)</text>
+    </g>
+    <g id="patch_10">
+     <path d="M 520.8 197.392063 
+L 777.6 197.392063 
+L 777.6 151.506541 
+L 520.8 151.506541 
+z
+" style="fill: #0279ee; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(620.439375 166.982993)">multiple states</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(627.449531 176.778403)">[STRONG]</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(632.945859 186.573814)">(5/6 sig)</text>
+    </g>
+    <g id="patch_11">
+     <path d="M 7.2 243.277584 
+L 264 243.277584 
+L 264 197.392063 
+L 7.2 197.392063 
+z
+" style="fill: #f0f0f0; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_10">
+     <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle" x="135.6" y="223.181503" transform="rotate(-0 135.6 223.181503)">C727S</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 264 243.277584 
+L 520.8 243.277584 
+L 520.8 197.392063 
+L 264 197.392063 
+z
+" style="fill: #ff9400; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(363.639375 212.868515)">multiple states</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(377.644219 222.663925)">[partial]</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(376.145859 232.459335)">(2/3 sig)</text>
+    </g>
+    <g id="patch_13">
+     <path d="M 520.8 243.277584 
+L 777.6 243.277584 
+L 777.6 197.392063 
+L 520.8 197.392063 
+z
+" style="fill: #0279ee; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(620.439375 212.868515)">multiple states</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(627.449531 222.663925)">[STRONG]</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(632.945859 232.459335)">(5/6 sig)</text>
+    </g>
+    <g id="patch_14">
+     <path d="M 7.2 289.163106 
+L 264 289.163106 
+L 264 243.277584 
+L 7.2 243.277584 
+z
+" style="fill: #f0f0f0; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_13">
+     <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle" x="135.6" y="269.067025" transform="rotate(-0 135.6 269.067025)">C727R</text>
+    </g>
+    <g id="patch_15">
+     <path d="M 264 289.163106 
+L 520.8 289.163106 
+L 520.8 243.277584 
+L 264 243.277584 
+z
+" style="fill: #0279ee; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(363.639375 258.754036)">multiple states</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(370.649531 268.549447)">[STRONG]</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(376.145859 278.344857)">(2/3 sig)</text>
+    </g>
+    <g id="patch_16">
+     <path d="M 520.8 289.163106 
+L 777.6 289.163106 
+L 777.6 243.277584 
+L 520.8 243.277584 
+z
+" style="fill: #0279ee; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(620.439375 258.754036)">multiple states</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(627.449531 268.549447)">[STRONG]</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(632.945859 278.344857)">(4/6 sig)</text>
+    </g>
+    <g id="patch_17">
+     <path d="M 7.2 335.048627 
+L 264 335.048627 
+L 264 289.163106 
+L 7.2 289.163106 
+z
+" style="fill: #f0f0f0; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_16">
+     <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle" x="135.6" y="314.952546" transform="rotate(-0 135.6 314.952546)">G729D</text>
+    </g>
+    <g id="patch_18">
+     <path d="M 264 335.048627 
+L 520.8 335.048627 
+L 520.8 289.163106 
+L 264 289.163106 
+z
+" style="fill: #0279ee; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(363.639375 304.639558)">multiple states</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(370.649531 314.434968)">[STRONG]</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(376.145859 324.230378)">(2/3 sig)</text>
+    </g>
+    <g id="patch_19">
+     <path d="M 520.8 335.048627 
+L 777.6 335.048627 
+L 777.6 289.163106 
+L 520.8 289.163106 
+z
+" style="fill: #0279ee; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(620.439375 304.639558)">multiple states</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(627.449531 314.434968)">[STRONG]</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(632.945859 324.230378)">(2/6 sig)</text>
+    </g>
+    <g id="patch_20">
+     <path d="M 7.2 380.934149 
+L 264 380.934149 
+L 264 335.048627 
+L 7.2 335.048627 
+z
+" style="fill: #f0f0f0; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_19">
+     <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle" x="135.6" y="360.838068" transform="rotate(-0 135.6 360.838068)">F730L</text>
+    </g>
+    <g id="patch_21">
+     <path d="M 264 380.934149 
+L 520.8 380.934149 
+L 520.8 335.048627 
+L 264 335.048627 
+z
+" style="fill: #75a025; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(374.388047 350.525079)">no signal</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(379.395 360.32049)">[weak]</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(376.145859 370.1159)">(0/3 sig)</text>
+    </g>
+    <g id="patch_22">
+     <path d="M 520.8 380.934149 
+L 777.6 380.934149 
+L 777.6 335.048627 
+L 520.8 335.048627 
+z
+" style="fill: #ff9400; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_21">
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(626.437734 350.525079)">single state</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(634.444219 360.32049)">[partial]</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(632.945859 370.1159)">(1/6 sig)</text>
+    </g>
+    <g id="patch_23">
+     <path d="M 7.2 426.81967 
+L 264 426.81967 
+L 264 380.934149 
+L 7.2 380.934149 
+z
+" style="fill: #f0f0f0; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_22">
+     <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle" x="135.6" y="406.723589" transform="rotate(-0 135.6 406.723589)">I852F</text>
+    </g>
+    <g id="patch_24">
+     <path d="M 264 426.81967 
+L 520.8 426.81967 
+L 520.8 380.934149 
+L 264 380.934149 
+z
+" style="fill: #75a025; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_23">
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(374.388047 396.410601)">no signal</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(379.395 406.206011)">[weak]</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(376.145859 416.001421)">(0/3 sig)</text>
+    </g>
+    <g id="patch_25">
+     <path d="M 520.8 426.81967 
+L 777.6 426.81967 
+L 777.6 380.934149 
+L 520.8 380.934149 
+z
+" style="fill: #75a025; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_24">
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(631.188047 396.410601)">no signal</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(636.195 406.206011)">[weak]</text>
+     <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #ffffff" transform="translate(632.945859 416.001421)">(0/6 sig)</text>
+    </g>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle" x="392.4" y="16.664355" transform="rotate(-0 392.4 16.664355)">Docking vs literature concordance (per mutation × ligand)</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_26">
+    <path d="M 38.016 493.805142 
+L 76.536 493.805142 
+L 76.536 477.480693 
+L 38.016 477.480693 
+z
+" clip-path="url(#pd2f3327dc5)" style="fill: #0279ee; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 38.016 519.198729 
+L 76.536 519.198729 
+L 76.536 502.87428 
+L 38.016 502.87428 
+z
+" clip-path="url(#pd2f3327dc5)" style="fill: #75a025; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 38.016 544.592317 
+L 76.536 544.592317 
+L 76.536 528.267868 
+L 38.016 528.267868 
+z
+" clip-path="url(#pd2f3327dc5)" style="fill: #ff9400; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="91.944" y="488.230808" transform="rotate(-0 91.944 488.230808)">Concordant STRONG (6/14)</text>
+   </g>
+   <g id="text_27">
+    <text style="font-style: italic; font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="276.84" y="487.985203" transform="rotate(-0 276.84 487.985203)">docking matches strong literature evidence</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="91.944" y="513.624395" transform="rotate(-0 91.944 513.624395)">Concordant weak (3/14)</text>
+   </g>
+   <g id="text_29">
+    <text style="font-style: italic; font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="276.84" y="513.37879" transform="rotate(-0 276.84 513.37879)">both docking &amp; literature agree on weak signal</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="91.944" y="539.017983" transform="rotate(-0 91.944 539.017983)">Partially concordant (5/14)</text>
+   </g>
+   <g id="text_31">
+    <text style="font-style: italic; font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="276.84" y="538.772377" transform="rotate(-0 276.84 538.772377)">docking weaker than literature suggests</text>
+   </g>
+   <g id="text_32">
+    <text style="font-style: italic; font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="38.016" y="560.916766" transform="rotate(-0 38.016 560.916766)">Literature basis: Ferretti 2024, Baltgalvis 2024, Kikuchi 2025, Dijkhuizen 2023, Fletcher 2026, Fowler 2026.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd2f3327dc5">
+   <rect x="7.2" y="465.690813" width="770.4" height="90.691384"/>
+  </clipPath>
+ </defs>
+</svg>
