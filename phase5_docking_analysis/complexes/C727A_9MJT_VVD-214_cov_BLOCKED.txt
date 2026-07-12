@@ -1,0 +1,6 @@
+Docking ID: C727A_9MJT_VVD-214_cov
+Status: COVALENT_BLOCKED
+Reason: C727A has no thiol nucleophile
+       (Ala/Ser side chain cannot form covalent bond
+        with VVD-214 vinylsulfone warhead)
+No Vina run performed. Definitional resistance by chemistry rule.

@@ -22,7 +22,8 @@ phase5_docking_analysis/
 ├── ligand_pdbqt/                          ← 3 ligand PDBQTs (HRO761, VVD-214, VVD-214_cov)
 ├── receptor_pdbqt/                        ← 32 receptor PDBQTs (4 templates × 8 states)
 ├── reference_poses/                       ← co-crystal reference PDBs for benchmark redock
-├── poses/                                 ← Vina pose PDBQT outputs
+├── poses/                                 ← Vina pose PDBQT outputs (ligand-only)
+├── complexes/                             ← 68 receptor+ligand merged PDBs (visualisation-ready) + 6 blocked notes
 ├── logs/                                  ← batch runtime logs
 │
 ├── dock_scores_raw.csv                    ← 50 non-cov rows (Vina primary output)

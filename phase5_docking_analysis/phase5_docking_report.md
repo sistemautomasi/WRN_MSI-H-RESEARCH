@@ -240,6 +240,9 @@ Root: `/mnt/results/phase5_docking_analysis/`
 - `phase5_cross_validation.csv` — 14 rows (7 mutations × 2 ligands)
 - `phase5_summary.csv` — 74 rows × 14 simplified cols
 
+**Merged complex PDBs** (`complexes/`, 68 files + 6 blocked notes):
+- Each `<docking_id>_complex.pdb` contains receptor (chain A) + best-pose ligand (chain L, resname `LIG`) in a single self-contained PDB, ready for PyMOL/ChimeraX/Coot without needing to load the receptor PDBQT separately. Ligand atoms have unique names so PDB parsers count them correctly. See `complexes/README.md`.
+
 **Figures** (PNG + SVG, 200 DPI):
 1. `fig1_benchmark_redock` — HRO761/VVD-214 redock RMSD to co-crystal
 2. `fig2_score_heatmap` — mut × state × ligand score matrix
