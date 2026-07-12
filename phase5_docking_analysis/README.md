@@ -7,6 +7,7 @@ Extension of the Phase 4 WRN druggable-pocket atlas with quantitative docking ev
 - Start with **`phase5_summary.md`** (one page).
 - Full write-up: **`phase5_docking_report.md`**.
 - Skipped items and workarounds: **`phase5_missing_data_report.md`**.
+- Orthogonal Chai-1 attempt (inconclusive): **`chai1_orthogonal/README.md`**.
 - Reproducibility: **`phase5_verification_checklist.md`**.
 
 ## Directory contents
@@ -24,6 +25,7 @@ phase5_docking_analysis/
 ├── reference_poses/                       ← co-crystal reference PDBs for benchmark redock
 ├── poses/                                 ← Vina pose PDBQT outputs (ligand-only)
 ├── complexes/                             ← 68 receptor+ligand merged PDBs (visualisation-ready) + 6 blocked notes
+├── chai1_orthogonal/                      ← Chai-1 orthogonal co-fold attempt (10 systems, INCONCLUSIVE — see subfolder README)
 ├── logs/                                  ← batch runtime logs
 │
 ├── dock_scores_raw.csv                    ← 50 non-cov rows (Vina primary output)

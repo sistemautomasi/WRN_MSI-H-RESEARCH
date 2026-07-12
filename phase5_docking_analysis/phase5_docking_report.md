@@ -190,6 +190,17 @@ Fourteen rows (7 mutations × 2 ligands). Concordance categories:
 - **C727A/S + HRO761**: Literature verdict is strong via covalent chemistry, but HRO761 is non-covalent, so covalent ablation is not applicable. Docking captures 2/3 or 3/3 states with mid-range signals (partial by 3-criteria rubric).
 - **F730L + VVD-214**: Only 1 of 6 rows (9S18 cov) is flagged; consistent with F730's downstream-hinge role being more sensitive in HRO761 chemistry space.
 
+### 5.1 Orthogonal validation attempt — Chai-1 co-fold (INCONCLUSIVE)
+
+Ten of the highest-signal Vina systems were re-run through Chai-1 (a diffusion-based protein-ligand co-fold model) as an orthogonal method check. Full write-up in `chai1_orthogonal/README.md`; the short verdict here:
+
+- **Confidence floor reached across all 10 systems**: Chai-1 returned ipTM 0.17–0.19 for every system (well below the ~0.5 threshold Chai-1 authors recommend for confident interface interpretation). pTM (protein-alone) 0.72–0.77 is reasonable, but the interface prediction is uniformly low-confidence.
+- **Canonical pocket not reproduced**: In no system did Chai-1 place the ligand within 15 Å of the canonical Cys727 CA — including WT baselines (19–33 Å). Chai-1 (in this run's configuration) cannot even localise the WT ligand to the pocket seen in Vina or in the crystallographic templates, so it cannot serve as an independent check for mutation-driven displacement.
+- **Sampling variance exceeds between-mutation signal**: Within-run centroid pairwise mean = 23.3 Å (SD ~7 Å) across 5 diffusion samples per job. Between-mutation range in mean lig→C727 distance = 16.4 Å. Signal-to-noise = 0.70. Two independent runs of an identical FASTA (same protein sequence, same ligand SMILES) produced first-model poses 18 Å apart — falsifying any first-model-based mutation clustering hypothesis.
+- **Root cause of the low-confidence run**: `--use-msa-server` failed on 4/4 attempts with `HTTPSConnectionPool(host='api.colabfold.com', port=443): Read timed out`. The ColabFold API was systemically unreachable during the run window. No-MSA fallback runs completed successfully but Chai-1 without MSA has substantially reduced accuracy on protein-ligand tasks.
+
+**Conclusion**: The Chai-1 co-fold attempt does not provide orthogonal support for or against the Vina Phase 5 findings. It is retained in `chai1_orthogonal/` as a documented negative-result attempt. It does not change any Vina-based conclusion in this report; the correct next-orthogonal step remains classical MD on the top-tier hits (currently postponed).
+
 ---
 
 ## 6. Key findings
@@ -206,7 +217,7 @@ Fourteen rows (7 mutations × 2 ligands). Concordance categories:
 
 - **Rigid receptor**: Vina docks against a fixed side-chain conformation. Induced-fit rearrangements (particularly around F730L in HRO761 chemistry) are not captured. Fowler 2026 relied on 900 ns MD for the G729D signal — docking alone can under-call these.
 - **Covalent-blocked C727A/S vs VVD-214**: Assigned by chemistry rule, not by docking. This is a correct call but is not a docking-native evidence line.
-- **Chai-1 spot-check skipped**: HPC availability failed at the time of scheduling. See `phase5_missing_data_report.md`.
+- **Chai-1 orthogonal co-fold attempted, INCONCLUSIVE**: 10/10 jobs completed successfully but returned uniformly low ipTM (0.17–0.19) with sampling variance exceeding between-mutation signal. `--use-msa-server` mode was unreachable during the run window (ColabFold API timeouts). See §5.1 and `chai1_orthogonal/README.md`.
 - **9S19 numbering**: 9S19 is a dimeric off-target structure with no direct alignment to the Phase 3 canonical numbering. Contacts for 9S19 dockings are reported in chain-prefixed 9S19-local numbers, not canonical WRN.
 - **Phase 3 numbering-offset dependency**: Reproducibility of contact-residue labels depends on the derived per-template offsets. If Phase 3 UniProt reference is updated, offsets must be re-derived (I852F probe method preserved in code).
 - **Single seed per docking**: Vina was run with seed=42. Some low-magnitude ΔScore signals (< 0.5 kcal/mol) may be near-noise on multi-seed retries.
