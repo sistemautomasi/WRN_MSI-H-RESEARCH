@@ -1,0 +1,62 @@
+; Phase 6 MD — nvt.mdp
+; NVT equilibration (200 ps): heat to 310 K with position restraints on protein+ligand
+; AMBER99SB-ILDN + TIP3P + GAFF2
+
+title           = NVT equilibration
+
+; Run control
+integrator      = md
+dt              = 0.002                 ; 2 fs
+nsteps          = 100000                ; 200 ps
+tinit           = 0
+
+; Output control
+nstxout         = 0                     ; no uncompressed
+nstvout         = 0
+nstfout         = 0
+nstenergy       = 500                   ; every 1 ps
+nstlog          = 500
+nstxout-compressed = 5000               ; every 10 ps
+compressed-x-grps  = System
+
+; Bond parameters
+continuation    = no                    ; restart from EM
+constraint_algorithm = lincs
+constraints     = h-bonds
+lincs_iter      = 1
+lincs_order     = 4
+
+; Neighbour searching
+cutoff-scheme   = Verlet
+nstlist         = 20
+ns_type         = grid
+pbc             = xyz
+
+; Electrostatics
+coulombtype     = PME
+rcoulomb        = 1.2
+pme-order       = 4
+fourierspacing  = 0.16
+
+; VdW
+vdwtype         = cutoff
+rvdw            = 1.2
+DispCorr        = EnerPres
+
+; Temperature coupling
+tcoupl          = V-rescale
+tc-grps         = Protein_LIG Water_and_ions
+tau_t           = 0.1 0.1
+ref_t           = 310 310
+
+; Pressure coupling — off in NVT
+pcoupl          = no
+
+; Velocity generation
+gen_vel         = yes
+gen_temp        = 310
+gen_seed        = -1                    ; log-recorded
+
+; Position restraints applied via -DPOSRES flag in grompp
+; See topol.top include (posre.itp + posre_lig.itp)
+define          = -DPOSRES

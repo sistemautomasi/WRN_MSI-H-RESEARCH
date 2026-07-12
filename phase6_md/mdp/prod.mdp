@@ -1,0 +1,67 @@
+; Phase 6 MD — prod.mdp
+; Production NPT (100 ns) — no position restraints
+; AMBER99SB-ILDN + TIP3P + GAFF2
+; Reference: Fowler 2026 MOE + 900 ns; Ferretti 2024 apo-helicase MD
+
+title           = Production 100 ns
+
+; Run control
+integrator      = md
+dt              = 0.002                 ; 2 fs
+nsteps          = 50000000              ; 100 ns
+tinit           = 0
+
+; Output
+nstxout         = 0                     ; no uncompressed .trr
+nstvout         = 0
+nstfout         = 0
+nstenergy       = 50000                 ; every 100 ps
+nstlog          = 50000                 ; every 100 ps
+nstxout-compressed = 50000              ; every 100 ps → 1000 frames total
+compressed-x-grps  = System
+
+; Bond parameters
+continuation    = yes                   ; restart from NPT
+constraint_algorithm = lincs
+constraints     = h-bonds               ; LINCS on H-containing bonds (allows dt=2fs)
+lincs_iter      = 1
+lincs_order     = 4
+
+; Neighbour searching
+cutoff-scheme   = Verlet
+nstlist         = 20
+ns_type         = grid
+pbc             = xyz
+
+; Electrostatics
+coulombtype     = PME
+rcoulomb        = 1.2
+pme-order       = 4
+fourierspacing  = 0.16
+
+; VdW
+vdwtype         = cutoff
+rvdw            = 1.2
+DispCorr        = EnerPres
+
+; Temperature coupling
+tcoupl          = V-rescale
+tc-grps         = Protein_LIG Water_and_ions
+tau_t           = 0.1 0.1
+ref_t           = 310 310
+
+; Pressure coupling — production-grade Parrinello-Rahman
+pcoupl          = Parrinello-Rahman
+pcoupltype      = isotropic
+tau_p           = 2.0
+ref_p           = 1.0
+compressibility = 4.5e-5
+
+; No velocity regeneration
+gen_vel         = no
+
+; No position restraints
+; define        = -DPOSRES
+
+; Reproducibility — actual seed written to prod.log
+ld_seed         = -1

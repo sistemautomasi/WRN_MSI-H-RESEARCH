@@ -25,10 +25,20 @@ __pycache__/
 *.pdbqt.tmp
 *.glg
 
-# MD-related (project policy: no MD simulations)
+# MD-related (block generated topology/coord/trajectory outputs from MD runs)
 *.top
 *.gro
 *.mdp
+*.xtc
+*.trr
+*.edr
+*.tpr
+*.cpt
+
+# Phase 6 MD scaffold: whitelist authored parameter files + inputs
+!phase6_md/mdp/*.mdp
+!phase6_md/inputs/**/*.pdb
+!phase6_md/inputs/**/*.smi
 
 # OS / editor
 .DS_Store

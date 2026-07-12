@@ -1,0 +1,28 @@
+; Phase 6 MD — em.mdp
+; Steepest-descent energy minimisation of solvated + ionised system
+; AMBER99SB-ILDN + TIP3P + GAFF2 ligand
+
+integrator      = steep
+emtol           = 500.0                 ; Fmax < 500 kJ/mol/nm
+emstep          = 0.01
+nsteps          = 100000
+
+; Neighbour searching
+nstlist         = 10
+cutoff-scheme   = Verlet
+ns_type         = grid
+pbc             = xyz
+
+; Electrostatics
+coulombtype     = PME
+rcoulomb        = 1.2
+pme-order       = 4
+fourierspacing  = 0.16
+
+; VdW
+vdwtype         = cutoff
+rvdw            = 1.2
+DispCorr        = EnerPres
+
+; Constraints - none during EM
+constraints     = none

@@ -1,0 +1,64 @@
+; Phase 6 MD — npt.mdp
+; NPT equilibration (500 ps): equilibrate density at 1 atm, 310 K
+; Keep position restraints on protein+ligand during equilibration
+; AMBER99SB-ILDN + TIP3P + GAFF2
+
+title           = NPT equilibration
+
+; Run control
+integrator      = md
+dt              = 0.002                 ; 2 fs
+nsteps          = 250000                ; 500 ps
+
+; Output
+nstxout         = 0
+nstvout         = 0
+nstfout         = 0
+nstenergy       = 500                   ; every 1 ps
+nstlog          = 500
+nstxout-compressed = 5000               ; every 10 ps
+compressed-x-grps  = System
+
+; Bond parameters
+continuation    = yes                   ; restart from NVT (velocities on)
+constraint_algorithm = lincs
+constraints     = h-bonds
+lincs_iter      = 1
+lincs_order     = 4
+
+; Neighbour searching
+cutoff-scheme   = Verlet
+nstlist         = 20
+ns_type         = grid
+pbc             = xyz
+
+; Electrostatics
+coulombtype     = PME
+rcoulomb        = 1.2
+pme-order       = 4
+fourierspacing  = 0.16
+
+; VdW
+vdwtype         = cutoff
+rvdw            = 1.2
+DispCorr        = EnerPres
+
+; Temperature coupling
+tcoupl          = V-rescale
+tc-grps         = Protein_LIG Water_and_ions
+tau_t           = 0.1 0.1
+ref_t           = 310 310
+
+; Pressure coupling — Berendsen for equilibration (mild, fast)
+pcoupl          = C-rescale
+pcoupltype      = isotropic
+tau_p           = 2.0
+ref_p           = 1.0
+compressibility = 4.5e-5
+refcoord_scaling = com
+
+; Velocities from NVT
+gen_vel         = no
+
+; Position restraints (removed in production)
+define          = -DPOSRES
