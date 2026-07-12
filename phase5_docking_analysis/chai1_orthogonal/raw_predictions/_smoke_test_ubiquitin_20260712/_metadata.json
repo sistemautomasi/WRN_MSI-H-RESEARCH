@@ -1,0 +1,7 @@
+{
+  "hpc_job_id": "26a81d45-45ba-4528-a9fe-0d96fe4d373b",
+  "purpose": "Chai-1 endpoint smoke test",
+  "target": "ubiquitin (76 aa, protein-only fold)",
+  "submitted": "2026-07-12T05:27:49",
+  "tool": "chai-1"
+}

@@ -1,0 +1,10 @@
+{
+  "hpc_job_id": "d95c0cec-0aa1-40f5-aaf5-d4866884e468",
+  "system": "F730L_9MJT_VVD-214",
+  "mutation": "F730L",
+  "template": "9MJT",
+  "ligand": "VVD-214",
+  "covalent_context": false,
+  "msa_mode": "no_msa",
+  "tool": "chai-1"
+}

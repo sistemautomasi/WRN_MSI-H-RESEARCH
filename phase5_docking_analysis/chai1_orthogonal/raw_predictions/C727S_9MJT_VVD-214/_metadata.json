@@ -1,0 +1,10 @@
+{
+  "hpc_job_id": "c0424c99-2bae-4e81-aa27-0b7e936f7054",
+  "system": "C727S_9MJT_VVD-214",
+  "mutation": "C727S",
+  "template": "9MJT",
+  "ligand": "VVD-214",
+  "covalent_context": false,
+  "msa_mode": "no_msa",
+  "tool": "chai-1"
+}

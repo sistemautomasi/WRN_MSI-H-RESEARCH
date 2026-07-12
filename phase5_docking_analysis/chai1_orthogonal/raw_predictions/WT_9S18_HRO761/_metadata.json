@@ -1,0 +1,10 @@
+{
+  "hpc_job_id": "23eb895a-6703-4578-bdaa-e7c2415b00cd",
+  "system": "WT_9S18_HRO761",
+  "mutation": "WT",
+  "template": "9S18",
+  "ligand": "HRO761",
+  "covalent_context": false,
+  "msa_mode": "no_msa",
+  "tool": "chai-1"
+}
