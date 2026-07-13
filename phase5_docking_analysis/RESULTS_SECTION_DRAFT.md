@@ -11,12 +11,12 @@ Docking parameters (AutoDock Vina 1.2.5, exhaustiveness=16, seed=42, box=24 Å c
 | Benchmark | Best score (kcal/mol) | Heavy-atom RMSD vs native | Pass? |
 |---|---:|---:|---|
 | HRO761 → 9S18_WT | −13.52 | **1.30 Å** | ✓ |
-| VVD-214 (non-covalent) → 7GQU_WT | −9.43 | **1.16 Å** | ✓ |
+| VVD-214 (non-covalent) → 7GQU_WT | −9.43 | **1.21 Å** | ✓ |
 | VVD-214 (covalent adduct) → 7GQU_WT | −9.13 | centroid **0.74 Å** (topology-adjusted, X1L is the covalent form of VVD-214) | ✓ |
 
 Both non-covalent redocks passed the 2 Å crystallographic pose-recovery target, confirming that the Vina configuration reproduces the deposited binding modes for both scaffolds. The covalent redock was assessed by centroid distance rather than heavy-atom RMSD because the crystallographic X1L in 7GQU is the reduced Michael adduct of VVD-214 (extra Cys-derived atoms), which prevents direct heavy-atom pairing.
 
-> **Note**: An earlier text version of this project mentioned 1.21 Å for the VVD-214 → 7GQU benchmark. That number is a transcription drift in one summary file; the primary run log records 1.16 Å (Vina PDBQT best pose vs X1L crystal heavy atoms, alt-A only, obrms). **Use 1.16 Å in the Results.**
+> **Note on benchmark reproducibility**: The heavy-atom RMSD **1.21 Å** (VVD-214 → 7GQU non-covalent) is reproducible directly from the archived pose file (`poses/WT_7GQU_VVD-214.pdbqt`, best_score −9.425 kcal/mol) against the alt-A-filtered X1L reference (`reference_poses/7GQU_native_X1L.pdb`, 30 heavy atoms) via `obrms`, in every format-conversion path tested (PDB→PDB, PDBQT→SDF→PDB, direct PDBQT). An earlier draft carried the value 1.16 Å from a preliminary redocking run that predated the final 50-docking batch. The batch redock overwrote the pose file (same Vina configuration, same seed=42, but slightly different final coordinates due to Vina's stochastic optimisation), and the current archived pose gives 1.21 Å. **Use 1.21 Å in the Results.** Both values sit well under the 2 Å crystallographic pose-recovery target.
 
 ---
 
@@ -160,7 +160,7 @@ Ten of the highest-signal Vina systems (2 WT baselines + C727R × 3 states × 2 
 
 ## Suggested figure set (for Results)
 
-- **Fig 1 — Benchmark redock validation** (`figures/fig1_benchmark_redock.png`): 2-panel superposition of docked pose vs crystal for HRO761→9S18 (1.30 Å) and VVD-214→7GQU (1.16 Å).
+- **Fig 1 — Benchmark redock validation** (`figures/fig1_benchmark_redock.png`): 2-panel superposition of docked pose vs crystal for HRO761→9S18 (1.30 Å) and VVD-214→7GQU (1.21 Å).
 - **Fig 2 — Best-score heatmap** (`figures/fig2_score_heatmap.png`): mutation × template matrix per ligand.
 - **Fig 3 — ΔScore diverging heatmap** (`figures/fig3_delta_score_heatmap.png`): mutant − WT, threshold line at +1.5 kcal/mol.
 - **Fig 4 — Pose RMSD heatmap** (`figures/fig4_pose_rmsd_heatmap.png`): threshold line at 4 Å.
